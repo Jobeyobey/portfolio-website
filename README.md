@@ -1,5 +1,11 @@
 # portfolio-website
 
+Work in progress!
+
+[Figma Design File](https://www.figma.com/design/CHkIc5Bb2w5Og3dZFzIIbF/Portfolio?node-id=2251-3498&t=Yzqci1c73hCZP0BG-1)
+
+## Checklist
+
 ### Planning
 - [X] FreeCodeCamp Projects Gathered // None worth adding
 - [X] Scrimba Projects Gathered
