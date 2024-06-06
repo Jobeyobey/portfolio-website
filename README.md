@@ -28,9 +28,9 @@ Work in progress!
 
 #### Mockups
 [Figma File](https://www.figma.com/design/CHkIc5Bb2w5Og3dZFzIIbF/Portfolio?node-id=0-1&t=8aGQglpqNkQTEhMQ-1)
-- [ ] Desktop
-- [ ] Light/Dark Version
-- [ ] Mobile
+- [X] Desktop
+- [X] Light/Dark Version
+- [X] Mobile
 
 #### Resources
 - [ ] Fonts
@@ -39,8 +39,25 @@ Work in progress!
 - [ ] Lottie Files?
 
 ### Coding
-- [ ] Base Content
-- [ ] Styling
+
+#### Base content
+- [ ] Landing
+- [ ] Bio
+- [ ] Skills
+- [ ] Featured Project(s)
+- [ ] Other Projects
+- [ ] CV
+- [ ] Contact
+
+#### Styling
+- [ ] Background
+- [ ] Landing
+- [ ] Bio
+- [ ] Skills
+- [ ] Featured Project(s)
+- [ ] Other Projects
+- [ ] CV
+- [ ] Contact
 
 ### Review
 - [ ] Revisit any remaining issues
