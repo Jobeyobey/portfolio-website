@@ -24,10 +24,6 @@ export default function Home() {
                     content="width=device-width, initial-scale=1"
                 />
                 {/* <link rel="icon" href="/favicon.ico" /> */}
-                <script
-                    src="https://kit.fontawesome.com/2909939846.js"
-                    crossorigin="anonymous"
-                ></script>
             </Head>
             <Navbar />
             <main className={`${inter.className}`}>
@@ -44,5 +40,6 @@ export default function Home() {
                 <Contact />
             </main>
         </>
-    );
+        
+    ) // prettier-ignore
 }

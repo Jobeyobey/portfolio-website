@@ -1,4 +1,7 @@
 import SectionTitle from "./SectionTitle";
+import Image from "next/image";
+import github from "../images/github.svg";
+import linkedin from "../images/linkedin.svg";
 
 export default function Contact() {
     return (
@@ -9,8 +12,12 @@ export default function Contact() {
                 hollands.joe@gmail.com
             </a>
             <p>Or find me on</p>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <a href="#" target="_blank">
+                <Image src={github} width="20" height="20" alt="#" />
+            </a>
+            <a href="#" target="_blank">
+                <Image src={linkedin} width="20" height="20" alt="#" />
+            </a>
         </section>
     );
 }

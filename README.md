@@ -43,6 +43,7 @@ Work in progress!
 -   [ ] Gifs
 -   [ ] Lottie Files?
 -   [ ] Project Data
+-   [ ] Replace Favicon
 
 ### Coding
 
@@ -53,7 +54,6 @@ Work in progress!
 -   [x] Skills
 -   [x] Featured Project(s)
 -   [x] Other Projects
--   [ ] CV
 -   [x] Contact
 
 #### Styling
@@ -76,3 +76,4 @@ Work in progress!
 -   [ ] Tab-able?
 -   [ ] Keyboard-Focusable
 -   [ ] Fix BGC home issue!
+-   [ ] Check for leftover Next.Js template code

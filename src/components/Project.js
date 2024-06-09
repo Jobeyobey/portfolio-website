@@ -7,8 +7,6 @@ export default function Project(props) {
 
     const isDescription2 = props.description2 !== undefined;
 
-    console.log(props.imgSrc + " HERE");
-
     return (
         <>
             <div className="project-title-container">
