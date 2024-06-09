@@ -7,63 +7,72 @@ Work in progress!
 ## Checklist
 
 ### Planning
-- [X] FreeCodeCamp Projects Gathered // None worth adding
-- [X] Scrimba Projects Gathered
-- [X] CS50 Projects Gathered
-- [X] C# Players Guide Projects Gathered
-- [X] Unity Project Gathered
-- [X] Decide on one or multiple page website // Multiple Page Website (Main Page, Featured Projects have their own pages)
-- [X] Decide on framework (HTML/CSS/JS + React/Flask/Other?) // Should probably attempt to make it in React
+
+-   [x] FreeCodeCamp Projects Gathered // None worth adding
+-   [x] Scrimba Projects Gathered
+-   [x] CS50 Projects Gathered
+-   [x] C# Players Guide Projects Gathered
+-   [x] Unity Project Gathered
+-   [x] Decide on one or multiple page website // Multiple Page Website (Main Page, Featured Projects have their own pages)
+-   [x] Decide on framework (HTML/CSS/JS + React/Flask/Other?) // Should probably attempt to make it in React
 
 ### Design
 
 #### Content
-- [X] Landing
-- [X] Bio
-- [X] Skills
-- [X] Featured Project(s)
-- [X] Other Projects
-- [X] CV
-- [X] Contact
+
+-   [x] Landing
+-   [x] Bio
+-   [x] Skills
+-   [x] Featured Project(s)
+-   [x] Other Projects
+-   [x] CV
+-   [x] Contact
 
 #### Mockups
+
 [Figma File](https://www.figma.com/design/CHkIc5Bb2w5Og3dZFzIIbF/Portfolio?node-id=0-1&t=8aGQglpqNkQTEhMQ-1)
-- [X] Desktop
-- [X] Light/Dark Version
-- [X] Mobile
+
+-   [x] Desktop
+-   [x] Light/Dark Version
+-   [x] Mobile
 
 #### Resources
-- [ ] Fonts
-- [ ] Images
-- [ ] Gifs
-- [ ] Lottie Files?
+
+-   [ ] Fonts
+-   [ ] Images
+-   [ ] Gifs
+-   [ ] Lottie Files?
+-   [ ] Project Data
 
 ### Coding
 
 #### Base content
-- [ ] Landing
-- [ ] Bio
-- [ ] Skills
-- [ ] Featured Project(s)
-- [ ] Other Projects
-- [ ] CV
-- [ ] Contact
+
+-   [x] Landing
+-   [x] Bio
+-   [x] Skills
+-   [x] Featured Project(s)
+-   [x] Other Projects
+-   [ ] CV
+-   [x] Contact
 
 #### Styling
-- [ ] Background
-- [ ] Landing
-- [ ] Bio
-- [ ] Skills
-- [ ] Featured Project(s)
-- [ ] Other Projects
-- [ ] CV
-- [ ] Contact
+
+-   [ ] Background
+-   [ ] Landing
+-   [ ] Bio
+-   [ ] Skills
+-   [ ] Featured Project(s)
+-   [ ] Other Projects
+-   [ ] CV
+-   [ ] Contact
 
 ### Review
-- [ ] Revisit any remaining issues
-- [ ] Seek feedback
-- [ ] Update according to feedback
-- [ ] Accessibility
-- [ ] Tab-able?
-- [ ] Keyboard-Focusable
-- [ ] Fix BGC home issue!
+
+-   [ ] Revisit any remaining issues
+-   [ ] Seek feedback
+-   [ ] Update according to feedback
+-   [ ] Accessibility
+-   [ ] Tab-able?
+-   [ ] Keyboard-Focusable
+-   [ ] Fix BGC home issue!
