@@ -139,8 +139,12 @@ body {
 
 .bio {
     margin: auto;
-    padding-top: 15vh;
+    padding-top: 20vh;
     width: 50%;
+    max-width: 46rem;
+    font-size: 1.6rem;
+    font-weight: 200;
+    text-align: center;
 }
 
 /* Section Titles */

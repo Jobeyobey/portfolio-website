@@ -29,7 +29,7 @@ export default function Home() {
             <main className={`${inter.className}`}>
                 <MainTitle />
                 <p className="bio">
-                    I&aposm looking for a job because I would like to have one.
+                    I&apos;m looking for a job because I would like to have one.
                     I would like to work for money. I would like to make money
                     while having fun so I can buy things I like while doing
                     things I like.
