@@ -60,13 +60,14 @@ Work in progress!
 #### Styling
 
 -   [ ] Background
--   [ ] Landing
--   [ ] Bio
--   [ ] Skills
+-   [x] Landing
+-   [x] Bio
+-   [x] Skills
 -   [ ] Featured Project(s)
 -   [ ] Other Projects
 -   [ ] Contact
 -   [ ] Animation
+-   [ ] Responsive
 
 ### Review
 

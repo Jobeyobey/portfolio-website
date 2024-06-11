@@ -20,6 +20,11 @@
     --offWhite: #fefefe;
     --gitColour: #fefefe;
     --linkedinColour: #3993dd;
+    --pythonGreen: #519872;
+    --htmlRed: #e05b31;
+    --javascriptYellow: #ebe548;
+    --sqlGrey: #e9e9e9;
+    --restOrange: #ffa400;
 }
 
 * {
@@ -34,15 +39,16 @@ html,
 body {
     background-color: #151515;
     color: white;
-    max-width: 100vw;
     overflow-x: hidden;
 }
 
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+main {
+    max-width: var(--max-width);
+    margin: auto;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 /* Nav Bar Styling */
@@ -144,15 +150,15 @@ body {
 
 .title-underscore {
     margin: auto auto 1.4rem auto;
-    width: 24rem;
-    border: 1px solid var(--myOrange);
+    width: 25.4rem;
+    border: 0.5px solid var(--myOrange);
     border-radius: 5px;
 }
 
 .bio {
     margin: auto;
     padding-top: 20vh;
-    width: 50%;
+    width: 80%;
     max-width: 46rem;
     font-size: 1.6rem;
     font-weight: 200;
@@ -164,7 +170,7 @@ body {
 .section-title-container {
     margin: auto;
     margin-top: 20vh;
-    width: 50%;
+    width: 900px;
     text-align: center;
     /* border: 3px solid green; */
     padding: 10px;
@@ -185,7 +191,7 @@ body {
 .section-underscore {
     margin: 0.4rem auto;
     width: 900px;
-    border: 1px solid var(--myOrange);
+    border: 0.5px solid var(--myOrange);
     border-radius: 5px;
 }
 
@@ -264,6 +270,90 @@ body {
 
 /* Language Containers */
 
-.language-container p {
-    background: var(--myGreen);
+.languages {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
+
+.language-container {
+    padding: 0.3rem 0.6rem;
+    border-radius: 2rem;
+}
+
+.python {
+    background: var(--pythonGreen);
+}
+
+.html {
+    background: var(--htmlRed);
+}
+
+.javascript {
+    background: var(--javascriptYellow);
+}
+
+.javascript p {
+    color: var(--myBlack);
+}
+
+.sql {
+    background: var(--sqlGrey);
+}
+
+.sql p {
+    color: var(--myBlack);
+}
+
+.restapi {
+    background: var(--restOrange);
+}
+
+.restapi p {
+    color: var(--myBlack);
+}
+
+/* Featured Project */
+
+.feature-container {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid grey; */
+}
+
+.feature-info {
+    max-width: 25%;
+    /* border: 2px solid grey; */
+}
+
+.feature-info p {
+    font-weight: 200;
+    /* border: 2px solid grey; */
+}
+
+.project-desc-2 {
+    margin-top: 1rem;
+}
+
+.site-link {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0.4rem 1.2rem;
+    text-decoration: none;
+    max-width: 10rem;
+    background-color: var(--javascriptYellow);
+    color: var(--myBlack);
+    border-radius: 10px;
+    /* border: 2px solid grey; */
+}
+
+/* .project-site {
+    color: var(--myBlack);
+}
+
+.git-project {
+    color: yellow;
+} */
