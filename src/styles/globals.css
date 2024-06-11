@@ -1,3 +1,12 @@
+/* Import fonts */
+
+/* .chivo {
+  font-family: "Chivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
 /* Global Styling */
 
 :root {
@@ -7,6 +16,7 @@
     --myGreenHover: #418862;
     --myOrange: #ffa400;
     --myBlack: #1e1e1e;
+    --myBlue: #376f9e;
     --offWhite: #fefefe;
     --gitColour: #fefefe;
     --linkedinColour: #3993dd;
@@ -121,12 +131,14 @@ body {
 #title-container h1 {
     margin-bottom: 0.8rem;
     color: var(--myOrange);
+    font-family: "chivo";
     font-size: 3rem;
 }
 
 #title-container h2 {
     margin-bottom: 0.6rem;
     font-size: 2rem;
+    font-family: "chivo";
     font-weight: 100;
 }
 
@@ -158,9 +170,21 @@ body {
     padding: 10px;
 }
 
+.section-title {
+    font-size: 2rem;
+    font-family: "chivo";
+}
+
+.section-subtitle {
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    font-family: "chivo";
+    font-weight: 100;
+}
+
 .section-underscore {
-    margin: auto;
-    width: 314px;
+    margin: 0.4rem auto;
+    width: 900px;
     border: 1px solid var(--myOrange);
     border-radius: 5px;
 }
@@ -170,16 +194,72 @@ body {
 .skill-boxes-container {
     display: flex;
     justify-content: center;
+    padding-top: 3rem;
     gap: 50px;
 }
 
 .skill-box {
-    height: 300px;
-    width: 200px;
+    height: 320px;
+    width: 260px;
     text-align: center;
-    border: 2px solid var(--myGreen);
-    border-radius: 10px;
-    background: lightgray;
+}
+
+.coding-border {
+    background: linear-gradient(#151515, #151515) padding-box,
+        linear-gradient(130deg, #111412, var(--myBlue)) border-box;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.personal-border {
+    background: linear-gradient(#151515, #151515) padding-box,
+        linear-gradient(130deg, #111412, var(--myGreen)) border-box;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.experience-border {
+    background: linear-gradient(#151515, #151515) padding-box,
+        linear-gradient(130deg, #111412, var(--myOrange)) border-box;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.skill-box h4 {
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+    color: var(--myOrange);
+}
+
+.skill-list {
+    padding-top: 1rem;
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+.skill-list li {
+    font-weight: 200;
+    list-style-type: none;
+}
+
+.job-title {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.job-date {
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: var(--myOrange);
+}
+
+.job-description {
+    margin: 0 5% 0.5rem 5%;
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 100;
 }
 
 /* Language Containers */

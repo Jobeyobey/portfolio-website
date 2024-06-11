@@ -44,6 +44,7 @@ Work in progress!
 -   [ ] Lottie Files?
 -   [ ] Project Data
 -   [ ] Replace Favicon
+-   [ ] CV
 
 ### Coding
 
@@ -64,15 +65,17 @@ Work in progress!
 -   [ ] Skills
 -   [ ] Featured Project(s)
 -   [ ] Other Projects
--   [ ] CV
 -   [ ] Contact
+-   [ ] Animation
 
 ### Review
 
--   [ ] Revisit any remaining issues
+-   [ ] Finalise copy
+-   [ ] Scan for issues
 -   [ ] Seek feedback
 -   [ ] Update according to feedback
 -   [ ] Accessibility
+-   [ ] Aria Labels?
 -   [ ] Tab-able?
 -   [ ] Keyboard-Focusable
 -   [ ] Fix BGC home issue!
