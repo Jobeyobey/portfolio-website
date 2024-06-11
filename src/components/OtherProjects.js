@@ -20,7 +20,10 @@ export default function OtherProjects() {
 
     return (
         <section>
-            <SectionTitle title="Other Projects"></SectionTitle>
+            <SectionTitle
+                title="Other Projects"
+                subtitle="Personal Projects and Coursework"
+            ></SectionTitle>
             {/* FILTER */}
             {projects}
         </section>
