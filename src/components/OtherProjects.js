@@ -19,13 +19,32 @@ export default function OtherProjects() {
     });
 
     return (
-        <section>
+        <section className="other-projects">
             <SectionTitle
                 title="Other Projects"
                 subtitle="Personal Projects and Coursework"
             ></SectionTitle>
-            {/* FILTER */}
-            {projects}
+            <p id="filter-description">
+                Filter projects by selecting a language below
+            </p>
+            <div id="language-filter">
+                <button className={`language-button python`}>
+                    <p>Python</p>
+                </button>
+                <button className={`language-button html`}>
+                    <p>HTML/CSS</p>
+                </button>
+                <button className={`language-button javascript`}>
+                    <p>Javascript</p>
+                </button>
+                <button className={`language-button sql`}>
+                    <p>SQL</p>
+                </button>
+                <button className={`language-button restapi`}>
+                    <p>REST API</p>
+                </button>
+            </div>
+            <div className="projects">{projects}</div>
         </section>
     );
 }
