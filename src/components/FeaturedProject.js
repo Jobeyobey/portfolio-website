@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FeaturedProject() {
     return (
-        <section>
+        <section id="projects">
             <SectionTitle
                 title="Featured Project"
                 subtitle="The Boardgame Companion"
@@ -44,7 +44,7 @@ export default function FeaturedProject() {
                     </a>
                 </div>
                 <Image
-                    src={require("../images/placeholder-480x260.svg")}
+                    src="/images/placeholder-480x260.svg"
                     width={480}
                     height={260}
                     alt="#"

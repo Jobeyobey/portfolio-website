@@ -2,7 +2,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
     return (
-        <section>
+        <section id="skills">
             <SectionTitle
                 title="Skills and Experience"
                 subtitle="I intend to use these to pay the bills"

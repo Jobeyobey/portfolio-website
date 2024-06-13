@@ -41,7 +41,7 @@ export default function Project(props) {
                     </a>
                 </div>
                 <Image
-                    src={require("../images/placeholder-320-300.svg")}
+                    src="/images/placeholder-320-300.svg"
                     width={320}
                     height={300}
                     alt="#"

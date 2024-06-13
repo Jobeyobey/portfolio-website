@@ -1,10 +1,10 @@
 import Image from "next/image";
-import github from "../images/github.svg";
-import linkedin from "../images/linkedin.svg";
+// import github from ".../public/images/github.svg";
+// import linkedin from ".../public/images/linkedin.svg";
 
 export default function MainTitle() {
     return (
-        <section id="title-container">
+        <section id="about" className="title-container">
             <h1 className={"main-title"}>Joe Hollands</h1>
             <h2>Junior Software Developer</h2>
             <hr className="title-underscore"></hr>
@@ -16,7 +16,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={github}
+                        src={`/images/github-dark.svg`}
                         width="20"
                         height="20"
                         alt="#"
@@ -30,7 +30,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={linkedin}
+                        src={`/images/linkedin-light.svg`}
                         width="20"
                         height="20"
                         alt="#"

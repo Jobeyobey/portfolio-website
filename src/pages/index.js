@@ -35,6 +35,7 @@ export default function Home() {
                 <FeaturedProject />
                 <OtherProjects />
                 <Contact />
+                {/* <Footer /> */}
             </main>
         </>
         

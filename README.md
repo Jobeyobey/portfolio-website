@@ -38,7 +38,7 @@ Work in progress!
 
 #### Resources
 
--   [ ] Fonts
+-   [x] Fonts
 -   [ ] Images
 -   [ ] Gifs
 -   [ ] Lottie Files?
@@ -63,21 +63,28 @@ Work in progress!
 -   [x] Landing
 -   [x] Bio
 -   [x] Skills
--   [ ] Featured Project(s)
--   [ ] Other Projects
--   [ ] Contact
+-   [x] Featured Project(s)
+-   [x] Other Projects
+-   [x] Contact
 -   [ ] Animation
--   [ ] Responsive
+
+### Responsive
+
+-   [ ] Mobile
+-   [ ] REM/EM
+
+### Accessibility
+
+-   [ ] Aria Labels
+-   [ ] Tab-able
+-   [ ] Keyboard-Focusable
+-   [ ] Font sizes
 
 ### Review
 
 -   [ ] Finalise copy
 -   [ ] Scan for issues
--   [ ] Seek feedback
--   [ ] Update according to feedback
--   [ ] Accessibility
--   [ ] Aria Labels?
--   [ ] Tab-able?
--   [ ] Keyboard-Focusable
+-   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
+-   [ ] Tidy
