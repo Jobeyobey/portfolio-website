@@ -31,7 +31,7 @@
 
 html,
 body {
-    /* background-color: #151515; */
+    background-color: rgba(15, 15, 15, 0.75);
     color: white;
     overflow-x: hidden;
 }
@@ -645,13 +645,43 @@ main {
 
 /* Stars */
 
-canvas {
-    z-index: -1;
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+.stars,
+.twinkling {
     position: fixed;
-    margin-top: 0vh;
-    inset: 0;
-    background: #131313;
-    height: 200vh;
-    width: 100vw;
-    overflow: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -5;
+}
+
+.stars {
+    background: #000 url(/images/stars.png) repeat top center;
+}
+
+.twinkling {
+    background: transparent url(/images/twinkling.png) repeat top center;
+    animation: move-twink-back 500s linear infinite;
+    opacity: 50%;
 }

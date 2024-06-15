@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import FeaturedProject from "@/components/FeaturedProject";
 import OtherProjects from "@/components/OtherProjects";
 import Contact from "@/components/Contact";
-import Starry from "@/components/Starry";
+import StarSky from "@/components/StarSky";
 
 export default function Home() {
     return (
@@ -31,7 +31,7 @@ export default function Home() {
                 <OtherProjects />
                 <Contact />
                 {/* <Footer /> */}
-                <Starry />
+                <StarSky />
             </main>
         </>
     );
