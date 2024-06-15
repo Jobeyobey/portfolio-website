@@ -4,8 +4,8 @@ export default function Project(props) {
     const languageToClass = {
         "c#": "csharp",
         "html/css": "htmlcss",
+        "rest api": "restapi",
     };
-
     const languages = props.languages.map((language, index) => {
         // Ensure language class is valid for CSS names
         let languageClass = language.toLowerCase();

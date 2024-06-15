@@ -286,6 +286,10 @@ main {
 
 /* Language Containers */
 
+.disabled {
+    background: darkslategray;
+}
+
 .python {
     background: var(--pythonGreen);
 }
@@ -391,6 +395,11 @@ main {
     font-weight: 300;
 }
 
+.filter-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .other-projects {
     text-align: center;
 }
@@ -437,6 +446,7 @@ main {
 
 .project-languages {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 0.6rem;
     gap: 1rem;
 }
