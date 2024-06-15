@@ -70,8 +70,9 @@ Work in progress!
 
 ### Responsive
 
--   [ ] Mobile
--   [ ] REM/EM
+-   [x] 1200px+
+-   [x] 720px
+-   [x] 360px
 
 ### Accessibility
 

@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import FeaturedProject from "@/components/FeaturedProject";
 import OtherProjects from "@/components/OtherProjects";
 import Contact from "@/components/Contact";
+import StarSky from "@/components/StarSky";
 
 export default function Home() {
     return (
@@ -25,19 +26,13 @@ export default function Home() {
             <Navbar />
             <main>
                 <MainTitle />
-                <p className="bio">
-                    I&apos;m looking for a job because I would like to have one.
-                    I would like to work for money. I would like to make money
-                    while having fun so I can buy things I like while doing
-                    things I like.
-                </p>
                 <Skills />
                 <FeaturedProject />
                 <OtherProjects />
                 <Contact />
                 {/* <Footer /> */}
+                <StarSky />
             </main>
         </>
-        
-    ) // prettier-ignore
+    );
 }

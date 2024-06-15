@@ -24,13 +24,14 @@
     padding: 0;
     margin: 0;
     transition: 0.3s;
+    font-size: 16px;
 }
 
 /* Major styling */
 
 html,
 body {
-    background-color: #151515;
+    background-color: rgba(15, 15, 15, 0.75);
     color: white;
     overflow-x: hidden;
 }
@@ -95,18 +96,48 @@ main {
     justify-content: center;
 }
 
+/* Landing Area Styling */
+
+.title-container {
+    margin: auto;
+    margin-top: 35vh;
+    text-align: center;
+    padding: 10px;
+}
+
+.title-container h1 {
+    margin-bottom: 0.2em;
+    color: var(--myOrange);
+    font-family: "chivo";
+    font-size: 3em;
+}
+
+.title-container h2 {
+    margin-bottom: 0.6em;
+    font-size: 2em;
+    font-family: "chivo";
+    font-weight: 100;
+}
+
+.title-underscore {
+    margin: auto auto 1.4em auto;
+    width: 25.4em;
+    border: 0.5px solid var(--myOrange);
+    border-radius: 5px;
+}
+
 .button-anchor {
     display: grid;
     grid-template-columns: 40px 1fr 1fr 1fr 40px;
     grid-template-rows: 1fr;
-    max-width: 10rem;
+    max-width: 10em;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .git-button {
-    margin-right: 0.7rem;
+    margin-right: 0.7em;
     background-color: var(--gitColour);
     font-family: "inter";
     color: var(--myBlack);
@@ -119,7 +150,7 @@ main {
 }
 
 .button-svg {
-    margin: 0.5rem 0;
+    margin: 0.5em 0;
     grid-column-start: 1;
     grid-column-end: 1;
     justify-self: center;
@@ -133,80 +164,87 @@ main {
     justify-self: center;
 }
 
-/* Landing Area Styling */
-
-.title-container {
-    margin: auto;
-    margin-top: 35vh;
-    width: 50%;
-    text-align: center;
-    /* border: 3px solid green; */
-    padding: 10px;
-}
-
-.title-container h1 {
-    margin-bottom: 0.8rem;
-    color: var(--myOrange);
-    font-family: "chivo";
-    font-size: 3rem;
-}
-
-.title-container h2 {
-    margin-bottom: 0.6rem;
-    font-size: 2rem;
-    font-family: "chivo";
-    font-weight: 100;
-}
-
-.title-underscore {
-    margin: auto auto 1.4rem auto;
-    width: 25.4rem;
-    border: 0.5px solid var(--myOrange);
-    border-radius: 5px;
-}
-
 .bio {
     margin: auto;
     padding-top: 20vh;
     width: 80%;
-    max-width: 46rem;
+    max-width: 70%;
     font-family: "inter";
-    font-size: 1.6rem;
+    font-size: 1.6em;
     font-weight: 200;
     text-align: center;
+}
+
+@media (max-width: 720px) {
+    .title-container {
+        margin-top: 22vh;
+        font-size: 14px;
+    }
+    .title-underscore {
+        width: 22.4em;
+    }
+    .button-anchor {
+        grid-template-columns: 40px 1px 1fr 1px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-container {
+        font-size: 12px;
+    }
+    .bio {
+        max-width: 90%;
+    }
+    .title-underscore {
+        width: 19em;
+    }
 }
 
 /* Section Titles */
 
 .section-title-container {
     margin: auto;
-    margin-top: 20vh;
     width: 900px;
+    max-width: 90%;
     text-align: center;
     /* border: 3px solid green; */
     padding: 10px;
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 2em;
     font-family: "chivo";
 }
 
 .section-subtitle {
-    margin-top: 0.2rem;
-    font-size: 1.2rem;
+    margin-top: 0.2em;
+    font-size: 1.2em;
     font-family: "chivo";
     font-weight: 100;
 }
 
 .section-underscore {
-    margin: 0.4rem auto;
+    margin: 0.4em auto;
     width: 900px;
+    max-width: 100%;
     border: 0.5px solid var(--myOrange);
     border-radius: 5px;
 }
 
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.7em;
+    }
+    .section-subtitle {
+        font-size: 1em;
+    }
+}
+
 /* Skills Section */
+
+#skills {
+    margin-top: 20vh;
+}
 
 .skill-boxes-container {
     display: flex;
@@ -216,7 +254,7 @@ main {
 }
 
 .skill-box {
-    height: 320px;
+    height: 400px;
     width: 260px;
     text-align: center;
 }
@@ -252,12 +290,13 @@ main {
 .skill-list {
     padding-top: 1rem;
     line-height: 1.6rem;
-    font-size: 1rem;
 }
 
 .skill-list li {
+    font-size: 1.1em;
     font-family: "inter";
     font-weight: 200;
+    line-height: 2em;
     list-style-type: none;
 }
 
@@ -271,7 +310,7 @@ main {
 .job-date {
     padding-top: 0.2rem;
     font-family: "inter";
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 100;
     color: var(--myOrange);
 }
@@ -280,8 +319,30 @@ main {
     margin: 0 5% 0.5rem 5%;
     padding-top: 0.2rem;
     font-family: "inter";
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 100;
+}
+
+@media (max-width: 1000px) {
+    .skill-boxes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill-list li {
+        font-size: 1em;
+    }
+    .coding-border {
+        padding-bottom: 1rem;
+        height: 100%;
+    }
+    .personal-border {
+        padding-bottom: 1rem;
+        height: 100%;
+    }
+    .experience-border {
+        padding-bottom: 1rem;
+        height: 100%;
+    }
 }
 
 /* Language Containers */
@@ -337,10 +398,27 @@ main {
 
 /* Featured Project */
 
+#projects {
+    margin-top: 15vh;
+}
+
 .languages {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 95%;
     gap: 1rem;
+}
+
+@media (max-width: 520px) {
+    .languages {
+        gap: 0.5rem;
+        /* flex-wrap: wrap; */
+    }
+    .language-container p {
+        font-size: 0.9rem;
+    }
 }
 
 .language-container {
@@ -359,7 +437,7 @@ main {
 }
 
 .feature-info {
-    max-width: 25%;
+    max-width: 300px;
     font-family: "inter";
     /* border: 2px solid grey; */
 }
@@ -386,7 +464,43 @@ main {
     border-radius: 10px;
 }
 
+/* .feature-container img {
+    border: 2px solid grey;
+} */
+
+@media (max-width: 800px) {
+    .feature-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 2em;
+    }
+    .feature-info {
+        max-width: 480px;
+    }
+    .center-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.2em;
+    }
+}
+
+@media (max-width: 580px) {
+    .feature-info {
+        max-width: 85%;
+    }
+    .feature-container img {
+        max-width: 85%;
+        height: 100%;
+    }
+}
+
 /* Other Projects */
+
+#other-projects {
+    margin-top: 15vh;
+    text-align: center;
+}
 
 #filter-description {
     margin-top: 0.2rem;
@@ -400,12 +514,22 @@ main {
     cursor: pointer;
 }
 
-.other-projects {
-    text-align: center;
+#language-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1em auto;
+    max-width: 85%;
+}
+
+#filter-description {
+    margin: 0.5em auto;
+    max-width: 85%;
 }
 
 .language-button {
-    margin: 0 0.5rem;
     padding: 0.3rem 0.6rem;
     border-radius: 2rem;
     font-size: 1rem;
@@ -414,15 +538,21 @@ main {
     border: none;
 }
 
+@media (max-width: 720px) {
+    #language-filter {
+        gap: 0.5rem;
+    }
+}
+
 .projects {
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .project-container {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 6rem;
     font-family: "Inter";
+    margin-bottom: 6rem;
 }
 
 .project-description-container {
@@ -459,6 +589,27 @@ main {
     margin-top: 1rem;
 }
 
+@media (max-width: 920px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 4rem;
+        gap: 2em;
+        max-width: 85%;
+    }
+    .project-container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /* Contact */
 
 #contact {
@@ -490,4 +641,47 @@ main {
 
 .social-links a:hover {
     scale: 1.2;
+}
+
+/* Stars */
+
+@keyframes move-twink-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -10000px 5000px;
+    }
+}
+
+@keyframes move-clouds-back {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 10000px 0;
+    }
+}
+
+.stars,
+.twinkling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -5;
+}
+
+.stars {
+    background: #000 url(/images/stars.png) repeat top center;
+}
+
+.twinkling {
+    background: transparent url(/images/twinkling.png) repeat top center;
+    animation: move-twink-back 500s linear infinite;
+    opacity: 50%;
 }

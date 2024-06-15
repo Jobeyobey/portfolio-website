@@ -69,13 +69,13 @@ export default function OtherProjects() {
     });
 
     return (
-        <section className="other-projects">
+        <section id="other-projects">
             <SectionTitle
                 title="Other Projects"
                 subtitle="Personal Projects and Coursework"
             ></SectionTitle>
             <p id="filter-description">
-                Filter projects by selecting a language below
+                Filter projects by selecting a language below:
             </p>
             <div id="language-filter">{languageComponent}</div>
             <div className="projects">{projectComponent}</div>
