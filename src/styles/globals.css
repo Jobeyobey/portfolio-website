@@ -31,7 +31,7 @@
 
 html,
 body {
-    background-color: #151515;
+    /* background-color: #151515; */
     color: white;
     overflow-x: hidden;
 }
@@ -641,4 +641,17 @@ main {
 
 .social-links a:hover {
     scale: 1.2;
+}
+
+/* Stars */
+
+canvas {
+    z-index: -1;
+    position: fixed;
+    margin-top: 0vh;
+    inset: 0;
+    background: #131313;
+    height: 200vh;
+    width: 100vw;
+    overflow: scroll;
 }

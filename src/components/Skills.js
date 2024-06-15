@@ -35,7 +35,7 @@ export default function Skills() {
                         <li>React</li>
                         <li>Flast</li>
                         <li>Git</li>
-                        <li>Rest API's</li>
+                        <li>Rest API&apos;s</li>
                     </ul>
                 </div>
                 <div className="skill-box personal-border">
