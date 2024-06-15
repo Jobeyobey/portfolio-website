@@ -38,6 +38,11 @@ export default function MainTitle() {
                     <span className="button-text">LinkedIn</span>
                 </a>
             </div>
+            <p className="bio">
+                I&apos;m looking for a job because I would like to have one. I
+                would like to work for money. I would like to make money while
+                having fun so I can buy things I like while doing things I like.
+            </p>
         </section>
     );
 }

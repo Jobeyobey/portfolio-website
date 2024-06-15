@@ -36,15 +36,17 @@ export default function FeaturedProject() {
                         It uses Python as a back-end, storing user data in an
                         SQL database. The front-end uses the Flask framework.
                     </p>
-                    <a className="site-link" href="#" target="#">
-                        View Site
-                    </a>
-                    <a className="site-link" href="#" target="#">
-                        Github
-                    </a>
+                    <div class="center-links">
+                        <a className="site-link" href="#" target="#">
+                            View Site
+                        </a>
+                        <a className="site-link" href="#" target="#">
+                            Github
+                        </a>
+                    </div>
                 </div>
                 <Image
-                    src="/images/placeholder-480x260.svg"
+                    src="/images/placeholder/Featured-Project.png"
                     width={480}
                     height={260}
                     alt="#"

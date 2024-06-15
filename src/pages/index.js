@@ -25,12 +25,6 @@ export default function Home() {
             <Navbar />
             <main>
                 <MainTitle />
-                <p className="bio">
-                    I&apos;m looking for a job because I would like to have one.
-                    I would like to work for money. I would like to make money
-                    while having fun so I can buy things I like while doing
-                    things I like.
-                </p>
                 <Skills />
                 <FeaturedProject />
                 <OtherProjects />
@@ -38,6 +32,5 @@ export default function Home() {
                 {/* <Footer /> */}
             </main>
         </>
-        
-    ) // prettier-ignore
+    );
 }
