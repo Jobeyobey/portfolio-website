@@ -72,11 +72,12 @@ Work in progress!
 
 -   [x] Nav-Bar appear on scroll
 -   [ ] Title intro
--   [ ] Bio fade in
--   [ ] Section-Title Fade-ins
+-   [x] Bio fade in
+-   [x] Section-Title Fade-ins
 -   [ ] Skill Box animations
 -   [ ] Skill Box borders
 -   [ ] Other Projects Filter Fade Out/In
+-   [ ] Throttling
 
 ### Responsive
 

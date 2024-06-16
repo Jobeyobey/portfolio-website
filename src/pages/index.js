@@ -11,11 +11,17 @@ import {
     handleScroll,
     resizeNavBg,
     handleWindowResize,
+    getFadeList,
+    checkFade,
+    checkNavBg,
 } from "../utils/utils.js";
 
 export default function Home() {
     React.useEffect(() => {
+        checkNavBg();
         resizeNavBg();
+        const fadeList = getFadeList();
+        checkFade(fadeList);
 
         window.addEventListener("resize", handleWindowResize);
         window.addEventListener("scroll", handleScroll);

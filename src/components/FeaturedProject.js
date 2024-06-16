@@ -8,7 +8,10 @@ export default function FeaturedProject() {
                 title="Featured Project"
                 subtitle="The Boardgame Companion"
             />
-            <div aria-label="Languages this project uses" className="languages">
+            <div
+                aria-label="Languages this project uses"
+                className="languages fade-prep"
+            >
                 <div className={"language-container python"}>
                     <p>Python</p>
                 </div>
@@ -25,7 +28,7 @@ export default function FeaturedProject() {
                     <p>REST API</p>
                 </div>
             </div>
-            <div className="feature-container">
+            <div className="feature-container fade-prep">
                 <div className="feature-info">
                     <p className="project-desc-1">
                         The Boardgame Companion is a web-app that allows users

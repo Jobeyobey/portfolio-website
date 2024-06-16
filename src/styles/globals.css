@@ -105,12 +105,14 @@ main {
     top: 0;
     width: 100%;
     background: var(--myGreen);
+    transform: translateY(0px);
+    transition: all 0.5s ease-out;
 }
 
 .nav-bg.hide-nav-bg {
     opacity: 0;
     transform: translatey(-100px);
-    transition-duration: 0.6s;
+    transition: all 0.5s ease-out;
 }
 
 @media (max-width: 720px) {
@@ -128,13 +130,27 @@ main {
 #title-buttons {
     display: flex;
     justify-content: center;
+    margin-bottom: 20vh;
+}
+
+/* Fade in Animations */
+
+.fade-in {
+    opacity: 1;
+    /* transform: translateY(0px); */
+    transition: all 0.7s ease-in;
+}
+
+.fade-prep {
+    opacity: 0;
+    transform: translateY(100px);
 }
 
 /* Landing Area Styling */
 
 .title-container {
     margin: auto;
-    margin-top: 35vh;
+    margin-top: 38vh;
     text-align: center;
     padding: 10px;
 }
@@ -200,7 +216,6 @@ main {
 
 .bio {
     margin: auto;
-    padding-top: 20vh;
     width: 80%;
     max-width: 36em;
     font-family: "inter";
@@ -211,7 +226,7 @@ main {
 
 @media (max-width: 720px) {
     .title-container {
-        margin-top: 22vh;
+        margin-top: 34vh;
         font-size: 14px;
     }
     .title-underscore {
@@ -623,6 +638,40 @@ main {
     margin-top: 1rem;
 }
 
+.to-fade {
+    opacity: 0;
+}
+
+.fade-project-in {
+    animation: project-fade 0.5s;
+}
+
+@keyframes project-fade {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0px);
+    }
+}
+
+.fade-project-out {
+    animation: project-fade-reverse 0.2s;
+}
+
+@keyframes project-fade-reverse {
+    from {
+        opacity: 100;
+        transform: translateY(0px);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+}
+
 @media (max-width: 920px) {
     .projects {
         display: flex;
@@ -650,7 +699,7 @@ main {
     text-align: center;
     font-family: "inter";
     font-weight: 200;
-    margin-bottom: 35vh;
+    margin-bottom: 45vh;
 }
 
 #contact p {

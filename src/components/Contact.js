@@ -5,12 +5,14 @@ export default function Contact() {
     return (
         <section id="contact">
             <SectionTitle title="Contact" subtitle="Let's work together" />
-            <p>Email me at</p>
-            <a id="email" href="mailto: hollands.joe@gmail.com">
-                hollands.joe@gmail.com
-            </a>
-            <p>Or find me on</p>
-            <div className="social-links">
+            <div className="fade-prep">
+                <p>Email me at</p>
+                <a id="email" href="mailto: hollands.joe@gmail.com">
+                    hollands.joe@gmail.com
+                </a>
+            </div>
+            <p className="fade-prep">Or find me on</p>
+            <div className="social-links fade-prep">
                 <a
                     href="https://github.com/Jobeyobey"
                     target="_blank"

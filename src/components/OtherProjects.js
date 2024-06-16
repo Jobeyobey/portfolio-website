@@ -13,7 +13,6 @@ export default function OtherProjects() {
 
     function toggleFilter(id) {
         let selectedButton = {};
-
         // Identify selected filter button and enable it. Assign that button to `selectedButton`
         setButtons((prevState) => {
             return prevState.map((button) => {
@@ -23,16 +22,45 @@ export default function OtherProjects() {
                     : { ...button, enabled: false };
             });
         });
+
+        // Fade out all projects
+        let fadeNode = document.querySelectorAll(".fade-selector");
+        let fadeList = Array.from(fadeNode);
+        for (const project of fadeList) {
+            project.classList.remove("fade-project-in");
+            project.classList.add("fade-project-out");
+        }
+
+        // Once projects are faded, re-add the "to-fade" class to fade back
+        setTimeout(() => {
+            for (const project of fadeList) {
+                project.classList.add("to-fade");
+                project.classList.remove("fade-project-out");
+            }
+        }, 200);
+
         // Use `selectedButton` to enable/disable relevant projects
-        setProjects((prevState) => {
-            return prevState.map((project) => {
-                if (project.languages.includes(selectedButton.name)) {
-                    return { ...project, enabled: true };
-                } else {
-                    return { ...project, enabled: false };
-                }
+        setTimeout(() => {
+            setProjects((prevState) => {
+                return prevState.map((project) => {
+                    if (project.languages.includes(selectedButton.name)) {
+                        return { ...project, enabled: true };
+                    } else {
+                        return { ...project, enabled: false };
+                    }
+                });
             });
-        });
+        }, 205);
+
+        // Once projects are re-enabled, fade them back in
+        setTimeout(() => {
+            let fadeNode = document.querySelectorAll(".fade-selector");
+            let fadeList = Array.from(fadeNode);
+            for (const project of fadeList) {
+                project.classList.remove("to-fade");
+                project.classList.add("fade-project-in");
+            }
+        }, 210);
     }
 
     const languageComponent = buttons.map((language) => {
@@ -69,7 +97,7 @@ export default function OtherProjects() {
     });
 
     return (
-        <section id="other-projects">
+        <section id="other-projects" className="fade-prep">
             <SectionTitle
                 title="Other Projects"
                 subtitle="Personal Projects and Coursework"
