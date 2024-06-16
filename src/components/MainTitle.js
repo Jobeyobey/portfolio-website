@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import github from ".../public/images/github.svg";
-// import linkedin from ".../public/images/linkedin.svg";
 
 export default function MainTitle() {
     return (

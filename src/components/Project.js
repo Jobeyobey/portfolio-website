@@ -41,7 +41,6 @@ export default function Project(props) {
                 <a
                     className="site-link"
                     href="#"
-                    alt="#"
                     aria-label={`Github Repository for ${props.title} `}
                 >
                     Github

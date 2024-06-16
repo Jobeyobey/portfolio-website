@@ -68,6 +68,16 @@ Work in progress!
 -   [x] Contact
 -   [ ] Animation
 
+##### Animation
+
+-   [x] Nav-Bar appear on scroll
+-   [ ] Title intro
+-   [ ] Bio fade in
+-   [ ] Section-Title Fade-ins
+-   [ ] Skill Box animations
+-   [ ] Skill Box borders
+-   [ ] Other Projects Filter Fade Out/In
+
 ### Responsive
 
 -   [x] 1200px+
@@ -86,6 +96,8 @@ Work in progress!
 -   [ ] Finalise copy
 -   [ ] Scan for issues
 -   [ ] Consider nav bar menu
+-   [ ] Hoverable elements
+-   [ ] Colours
 -   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code

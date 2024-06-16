@@ -59,27 +59,38 @@ main {
     scroll-margin-top: 7rem;
 }
 
+@media (max-width: 480px) {
+    #skills {
+        scroll-margin-top: 5rem;
+    }
+    #featured-project {
+        scroll-margin-top: 4rem;
+    }
+}
+
 /* Nav Bar Styling */
 
 .nav-bar {
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--myGreen);
+    transform: translatey(0px);
+    /* background-color: var(--myGreen); */
+    transition-duration: 0.6s;
 }
 
 .nav-bar ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 2rem;
 }
 
 .nav-bar ul a {
     display: block;
     font-size: 1.2em;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em 2em;
     font-family: "inter";
     color: white;
     text-decoration: none;
@@ -89,9 +100,22 @@ main {
     background-color: var(--myGreenHover);
 }
 
+.nav-bg {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--myGreen);
+}
+
+.nav-bg.hide-nav-bg {
+    opacity: 0;
+    transform: translatey(-100px);
+    transition-duration: 0.6s;
+}
+
 @media (max-width: 720px) {
-    .nav-bar ul {
-        gap: 1rem;
+    .nav-bar ul li {
+        flex-grow: 1;
     }
     .nav-bar ul a {
         font-size: 1em;
@@ -178,7 +202,7 @@ main {
     margin: auto;
     padding-top: 20vh;
     width: 80%;
-    max-width: 70%;
+    max-width: 36em;
     font-family: "inter";
     font-size: 1.6em;
     font-weight: 200;

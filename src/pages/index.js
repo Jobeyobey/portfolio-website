@@ -1,5 +1,5 @@
+import React from "react";
 import Head from "next/head";
-import Image from "next/image";
 import MainTitle from "../components/MainTitle";
 import Skills from "../components/Skills";
 import Navbar from "../components/Navbar";
@@ -7,8 +7,24 @@ import FeaturedProject from "@/components/FeaturedProject";
 import OtherProjects from "@/components/OtherProjects";
 import Contact from "@/components/Contact";
 import StarSky from "@/components/StarSky";
+import {
+    handleScroll,
+    resizeNavBg,
+    handleWindowResize,
+} from "../utils/utils.js";
 
 export default function Home() {
+    React.useEffect(() => {
+        resizeNavBg();
+
+        window.addEventListener("resize", handleWindowResize);
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("resize", handleWindowResize);
+            window.removeEventListener("scroll", handleScroll);
+        };
+    });
+
     return (
         <>
             <Head>
@@ -23,9 +39,12 @@ export default function Home() {
                 />
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
-            <Navbar />
-            <main>
+            <header>
+                <Navbar />
+                <div className="nav-bg hide-nav-bg"></div>
                 <MainTitle />
+            </header>
+            <main>
                 <Skills />
                 <FeaturedProject />
                 <OtherProjects />
