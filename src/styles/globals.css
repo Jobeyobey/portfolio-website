@@ -77,7 +77,7 @@ main {
 
 .nav-bar ul a {
     display: block;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     text-align: center;
     padding: 14px 16px;
     font-family: "inter";
@@ -87,6 +87,16 @@ main {
 
 .nav-bar ul a:hover {
     background-color: var(--myGreenHover);
+}
+
+@media (max-width: 720px) {
+    .nav-bar ul {
+        gap: 1rem;
+    }
+    .nav-bar ul a {
+        font-size: 1em;
+        padding: 12px 10px;
+    }
 }
 
 /* Links */

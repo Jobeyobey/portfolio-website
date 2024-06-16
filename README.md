@@ -42,7 +42,7 @@ Work in progress!
 -   [ ] Images
 -   [ ] Gifs
 -   [ ] Lottie Files?
--   [ ] Project Data
+-   [x] Project Data
 -   [ ] Replace Favicon
 -   [ ] CV
 
@@ -59,7 +59,7 @@ Work in progress!
 
 #### Styling
 
--   [ ] Background
+-   [x] Background
 -   [x] Landing
 -   [x] Bio
 -   [x] Skills
@@ -79,7 +79,7 @@ Work in progress!
 -   [ ] Aria Labels
 -   [ ] Tab-able
 -   [ ] Keyboard-Focusable
--   [ ] Font sizes
+-   [x] Font sizes
 
 ### Review
 
@@ -88,4 +88,5 @@ Work in progress!
 -   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
+-   [ ] Review projectData
 -   [ ] Tidy
