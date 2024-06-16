@@ -3,12 +3,12 @@ import Image from "next/image";
 
 export default function FeaturedProject() {
     return (
-        <section id="projects">
+        <section id="featured-project">
             <SectionTitle
                 title="Featured Project"
                 subtitle="The Boardgame Companion"
             />
-            <div className="languages">
+            <div aria-label="Languages this project uses" className="languages">
                 <div className={"language-container python"}>
                     <p>Python</p>
                 </div>
@@ -36,11 +36,21 @@ export default function FeaturedProject() {
                         It uses Python as a back-end, storing user data in an
                         SQL database. The front-end uses the Flask framework.
                     </p>
-                    <div class="center-links">
-                        <a className="site-link" href="#" target="#">
+                    <div className="center-links">
+                        <a
+                            className="site-link"
+                            href="#"
+                            target="#"
+                            aria-label="The Board Game Companion"
+                        >
                             View Site
                         </a>
-                        <a className="site-link" href="#" target="#">
+                        <a
+                            className="site-link"
+                            href="#"
+                            target="#"
+                            aria-label="Github Repository for The Board Game Companion"
+                        >
                             Github
                         </a>
                     </div>
@@ -49,7 +59,7 @@ export default function FeaturedProject() {
                     src="/images/placeholder/Featured-Project.png"
                     width={480}
                     height={260}
-                    alt="#"
+                    alt="A laptop and mobile displaying The Boardgame Companion"
                 />
             </div>
         </section>

@@ -27,17 +27,32 @@ export default function Project(props) {
             <div className="project-description-container">
                 <h3 className="project-title">{props.title}</h3>
                 <h4 className="project-subtitle">{props.subtitle}</h4>
-                <hr className="project-underscore"></hr>
-                <div className="project-languages">{languages}</div>
+                <hr className="project-underscore" aria-hidden="true"></hr>
+                <div
+                    className="project-languages"
+                    aria-label="List of languages this project uses"
+                >
+                    {languages}
+                </div>
                 <p className="project-description">{props.description1}</p>
                 {isDescription2 && (
                     <p className="project-description">{props.description2}</p>
                 )}
-                <a className="site-link" href="#" alt="#">
+                <a
+                    className="site-link"
+                    href="#"
+                    alt="#"
+                    aria-label={`Github Repository for ${props.title} `}
+                >
                     Github
                 </a>
             </div>
-            <Image src={props.imgSrc} width={320} height={300} alt="#" />
+            <Image
+                src={props.imgSrc}
+                width={320}
+                height={300}
+                alt={props.imgAlt}
+            />
         </div>
     );
 }

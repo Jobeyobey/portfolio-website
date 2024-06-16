@@ -11,23 +11,28 @@ export default function Contact() {
             </a>
             <p>Or find me on</p>
             <div className="social-links">
-                <a href="https://github.com/Jobeyobey" target="_blank">
+                <a
+                    href="https://github.com/Jobeyobey"
+                    target="_blank"
+                    aria-label="Joe Hollands Github"
+                >
                     <Image
                         src={`/images/github-light.svg`}
                         width="20"
                         height="20"
-                        alt="#"
+                        aria-hidden="true"
                     />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/joehollands/"
                     target="_blank"
+                    aria-label="Joe Hollands LinkedIn"
                 >
                     <Image
                         src={`/images/linkedin-blue.svg`}
                         width="20"
                         height="20"
-                        alt="#"
+                        aria-hidden="true"
                     />
                 </a>
             </div>

@@ -7,19 +7,20 @@ export default function MainTitle() {
         <section id="about" className="title-container">
             <h1 className={"main-title"}>Joe Hollands</h1>
             <h2>Junior Software Developer</h2>
-            <hr className="title-underscore"></hr>
+            <hr className="title-underscore" aria-hidden="true"></hr>
             <div id="title-buttons">
                 <a
                     className="button-anchor git-button"
                     href="https://github.com/Jobeyobey"
                     target="_blank"
+                    aria-label="Joe Hollands Github"
                 >
                     <Image
                         className="button-svg"
                         src={`/images/github-dark.svg`}
                         width="20"
                         height="20"
-                        alt="#"
+                        aria-hidden="true"
                     />
                     <span className="button-text">Github</span>
                 </a>
@@ -27,13 +28,14 @@ export default function MainTitle() {
                     className="button-anchor linkedin-button"
                     href="https://www.linkedin.com/in/joehollands/"
                     target="_blank"
+                    aria-label="Joe Hollands LinkedIn"
                 >
                     <Image
                         className="button-svg"
                         src={`/images/linkedin-light.svg`}
                         width="20"
                         height="20"
-                        alt="#"
+                        aria-hidden="true"
                     />
                     <span className="button-text">LinkedIn</span>
                 </a>

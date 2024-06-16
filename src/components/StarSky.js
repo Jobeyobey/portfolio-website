@@ -1,8 +1,8 @@
 export default function StarSky() {
     return (
         <>
-            <div class="stars"></div>
-            <div class="twinkling"></div>
+            <div className="stars"></div>
+            <div className="twinkling"></div>
         </>
     );
 }

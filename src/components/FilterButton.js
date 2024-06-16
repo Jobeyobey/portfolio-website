@@ -8,8 +8,9 @@ export default function FilterButton(props) {
                 id={props.id}
                 className={`language-button filter-button ${props.className}`}
                 onClick={() => props.toggleFilter(props.id)}
+                aria-label={`Filter projects by ${props.name}`}
             >
-                <p>{props.name}</p>
+                {props.name}
             </button>
         </>
     );

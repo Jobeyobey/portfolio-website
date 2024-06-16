@@ -9,7 +9,7 @@ const projectsData = [
         description2:
             "This game is designed using Object-Oriented Programming. Object classes are used for Characters, Items, Attack Types and more.",
         imgSrc: "/images/placeholder/Final-Battle.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing the Command-Line Battle gameplay.",
         enabled: true,
     },
     {
@@ -22,7 +22,7 @@ const projectsData = [
         description2:
             "Built using React, it also uses cookies to track player statistics, and allows the user to change the amount of dice, as well as the game mode.",
         imgSrc: "/images/placeholder/Tenzies.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing the Tenzies gameplay.",
         enabled: false,
     },
     {
@@ -35,7 +35,7 @@ const projectsData = [
         description2:
             "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework.",
         imgSrc: "/images/placeholder/Boardgame-Companion.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing The Boardgame Companion.",
         enabled: false,
     },
     {
@@ -48,7 +48,7 @@ const projectsData = [
         description2:
             "Using Bootstrap, I created several carousel banners. I also created a filter so that users can filter heros by their role. The website is responsive and can be viewed on both desktop and mobile.",
         imgSrc: "/images/placeholder/CS50-Webpage.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing a website about the Overwatch 2 videogame.",
         enabled: false,
     },
     {
@@ -61,7 +61,7 @@ const projectsData = [
         description2:
             "The player can choose between a small, medium and large map, which consists of a grid. They must search the grid by inputting console commands, receiving information about their current and adjacent cells. They can kill monsters, avoid pits, and eventually enable the Fountain of Objects. Once they have done this, they can escape by returning to the start.",
         imgSrc: "/images/placeholder/Final-Battle.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing the Fountain of Objects Game gameplay.",
         enabled: true,
     },
     {
@@ -74,7 +74,7 @@ const projectsData = [
         description2:
             "When 'generate meme' is clicked, an image is fetched asynchronously from a database, and the input text is displayed on top.",
         imgSrc: "/images/placeholder/React-Meme-Generator.png",
-        imgAlt: "#",
+        imgAlt: "A meme of 3 monkeys on a sofa, with the caption 'when you decide to start learning programming'.",
         enabled: false,
     },
     {
@@ -86,7 +86,7 @@ const projectsData = [
             "Using React State to enable/disable a dark mode for a website.",
         description2: null,
         imgSrc: "/images/placeholder/Desktop-Portfolio-Dark.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing an app switching between light and dark mode.",
         enabled: false,
     },
     {
@@ -99,7 +99,7 @@ const projectsData = [
         description2:
             "Using the inputs from the user, a quiz is created by fetching questions that match the input criteria from a database. Once the user has selected their answers, they can submit them and see their score.",
         imgSrc: "/images/placeholder/React-Quiz-App.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing a user playing the Quiz App game.",
         enabled: false,
     },
     {
@@ -111,7 +111,7 @@ const projectsData = [
         description2:
             "I'm sure I can come up with some decent information to write here.",
         imgSrc: "/images/placeholder/Desktop-Portfolio-Dark.png",
-        imgAlt: "#",
+        imgAlt: "Animation showing this website.",
         enabled: false,
     },
 ];

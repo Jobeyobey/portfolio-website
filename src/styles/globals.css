@@ -55,7 +55,7 @@ main {
     scroll-margin-top: 12rem;
 }
 
-#projects {
+#featured-project {
     scroll-margin-top: 7rem;
 }
 
@@ -408,7 +408,7 @@ main {
 
 /* Featured Project */
 
-#projects {
+#featured-project {
     margin-top: 15vh;
 }
 

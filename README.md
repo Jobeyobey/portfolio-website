@@ -76,17 +76,18 @@ Work in progress!
 
 ### Accessibility
 
--   [ ] Aria Labels
--   [ ] Tab-able
--   [ ] Keyboard-Focusable
+-   [x] Aria Labels
+-   [x] Tab-able
+-   [x] Keyboard-Focusable
 -   [x] Font sizes
 
 ### Review
 
 -   [ ] Finalise copy
 -   [ ] Scan for issues
+-   [ ] Consider nav bar menu
 -   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
--   [ ] Review projectData
+-   [ ] Review projectData (can add git/site links in there) (alt text)
 -   [ ] Tidy
