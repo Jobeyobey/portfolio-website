@@ -3,8 +3,10 @@ import Image from "next/image";
 export default function MainTitle() {
     return (
         <section id="about" className="title-container">
-            <h1 className={"main-title"}>Joe Hollands</h1>
-            <h2>Junior Software Developer</h2>
+            <div className="titles-mask">
+                <h1 className={"main-title"}>Joe Hollands</h1>
+                <h2>Junior Software Developer</h2>
+            </div>
             <hr className="title-underscore" aria-hidden="true"></hr>
             <div id="title-buttons">
                 <a
