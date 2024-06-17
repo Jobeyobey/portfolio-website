@@ -66,7 +66,14 @@ Work in progress!
 -   [x] Featured Project(s)
 -   [x] Other Projects
 -   [x] Contact
--   [ ] Animation
+-   [x] Animation
+
+##### Animation
+
+-   [x] Nav-Bar appear on scroll
+-   [x] Bio fade in
+-   [x] Section-Title Fade-ins
+-   [x] Other Projects Filter Fade Out/In
 
 ### Responsive
 
@@ -86,8 +93,20 @@ Work in progress!
 -   [ ] Finalise copy
 -   [ ] Scan for issues
 -   [ ] Consider nav bar menu
+-   [ ] Hoverable elements
+-   [ ] Colours
 -   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
 -   [ ] Review projectData (can add git/site links in there) (alt text)
 -   [ ] Tidy
+
+### Stretch-Goals
+
+#### Animation
+
+-   [x] Title intro
+-   [x] Section titles animated
+-   [ ] Skill Box animations
+-   [ ] Skill Box borders
+-   [ ] Throttling

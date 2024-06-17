@@ -3,12 +3,14 @@ import Image from "next/image";
 
 export default function Contact() {
     return (
-        <section id="contact">
+        <section id="contact" className="fade-prep">
             <SectionTitle title="Contact" subtitle="Let's work together" />
-            <p>Email me at</p>
-            <a id="email" href="mailto: hollands.joe@gmail.com">
-                hollands.joe@gmail.com
-            </a>
+            <div>
+                <p>Email me at</p>
+                <a id="email" href="mailto: hollands.joe@gmail.com">
+                    hollands.joe@gmail.com
+                </a>
+            </div>
             <p>Or find me on</p>
             <div className="social-links">
                 <a

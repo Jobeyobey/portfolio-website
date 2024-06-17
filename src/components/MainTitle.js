@@ -1,12 +1,12 @@
 import Image from "next/image";
-// import github from ".../public/images/github.svg";
-// import linkedin from ".../public/images/linkedin.svg";
 
 export default function MainTitle() {
     return (
         <section id="about" className="title-container">
-            <h1 className={"main-title"}>Joe Hollands</h1>
-            <h2>Junior Software Developer</h2>
+            <div className="titles-mask">
+                <h1 className={"main-title"}>Joe Hollands</h1>
+                <h2>Junior Software Developer</h2>
+            </div>
             <hr className="title-underscore" aria-hidden="true"></hr>
             <div id="title-buttons">
                 <a
@@ -40,7 +40,7 @@ export default function MainTitle() {
                     <span className="button-text">LinkedIn</span>
                 </a>
             </div>
-            <p className="bio">
+            <p className="bio fade-prep">
                 I&apos;m looking for a job because I would like to have one. I
                 would like to work for money. I would like to make money while
                 having fun so I can buy things I like while doing things I like.
