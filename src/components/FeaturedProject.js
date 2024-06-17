@@ -61,7 +61,7 @@ export default function FeaturedProject() {
                         </div>
                     </div>
                     <Image
-                        src="/images/placeholder/Featured-Project.png"
+                        src="/Featured-Project.png"
                         width={480}
                         height={260}
                         alt="A laptop and mobile displaying The Boardgame Companion"

@@ -23,7 +23,7 @@ export default function Contact() {
                         aria-label="Joe Hollands Github"
                     >
                         <Image
-                            src={`/images/github-light.svg`}
+                            src={`/github-light.svg`}
                             width="20"
                             height="20"
                             aria-hidden="true"
@@ -35,7 +35,7 @@ export default function Contact() {
                         aria-label="Joe Hollands LinkedIn"
                     >
                         <Image
-                            src={`/images/linkedin-blue.svg`}
+                            src={`/linkedin-blue.svg`}
                             width="20"
                             height="20"
                             aria-hidden="true"
