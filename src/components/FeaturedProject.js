@@ -1,5 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
+import { basePath } from "../../next.config.mjs";
 
 export default function FeaturedProject() {
     return (
@@ -61,7 +62,7 @@ export default function FeaturedProject() {
                         </div>
                     </div>
                     <Image
-                        src="/Featured-Project.png"
+                        src={`${basePath}/images/placeholder/Featured-Project.png`}
                         width={480}
                         height={260}
                         alt="A laptop and mobile displaying The Boardgame Companion"
