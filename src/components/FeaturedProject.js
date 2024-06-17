@@ -62,7 +62,7 @@ export default function FeaturedProject() {
                         </div>
                     </div>
                     <Image
-                        src={`${nextConfig.basePath}/Featured-Project.png`}
+                        src={`${nextConfig.basePath}/images/Featured-Project.png`}
                         width={480}
                         height={260}
                         alt="A laptop and mobile displaying The Boardgame Companion"
