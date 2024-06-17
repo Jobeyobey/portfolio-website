@@ -2,12 +2,12 @@ import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
     return (
-        <section id="skills">
+        <section id="skills" className="fade-prep">
             <SectionTitle
                 title="Skills and Experience"
                 subtitle="I intend to use these to pay the bills"
             />
-            <div className="skill-boxes-container fade-prep">
+            <div className="skill-boxes-container">
                 <div className="skill-box experience-border">
                     <h4>Experience</h4>
                     <h5 className="job-title">Graphic Design</h5>

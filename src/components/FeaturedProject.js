@@ -3,15 +3,12 @@ import Image from "next/image";
 
 export default function FeaturedProject() {
     return (
-        <section id="featured-project">
+        <section id="featured-project" className="fade-prep">
             <SectionTitle
                 title="Featured Project"
                 subtitle="The Boardgame Companion"
             />
-            <div
-                aria-label="Languages this project uses"
-                className="languages fade-prep"
-            >
+            <div aria-label="Languages this project uses" className="languages">
                 <div className={"language-container python"}>
                     <p>Python</p>
                 </div>
@@ -28,7 +25,7 @@ export default function FeaturedProject() {
                     <p>REST API</p>
                 </div>
             </div>
-            <div className="feature-container fade-prep">
+            <div className="feature-container">
                 <div className="feature-info">
                     <p className="project-desc-1">
                         The Boardgame Companion is a web-app that allows users

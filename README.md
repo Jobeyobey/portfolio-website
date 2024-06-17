@@ -66,18 +66,14 @@ Work in progress!
 -   [x] Featured Project(s)
 -   [x] Other Projects
 -   [x] Contact
--   [ ] Animation
+-   [x] Animation
 
 ##### Animation
 
 -   [x] Nav-Bar appear on scroll
--   [ ] Title intro
 -   [x] Bio fade in
 -   [x] Section-Title Fade-ins
--   [ ] Skill Box animations
--   [ ] Skill Box borders
--   [ ] Other Projects Filter Fade Out/In
--   [ ] Throttling
+-   [x] Other Projects Filter Fade Out/In
 
 ### Responsive
 
@@ -104,3 +100,12 @@ Work in progress!
 -   [ ] Check for leftover Next.Js template code
 -   [ ] Review projectData (can add git/site links in there) (alt text)
 -   [ ] Tidy
+
+### Stretch-Goals
+
+#### Animation
+
+-   [ ] Title intro
+-   [ ] Skill Box animations
+-   [ ] Skill Box borders
+-   [ ] Throttling
