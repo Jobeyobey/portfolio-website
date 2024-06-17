@@ -93,7 +93,6 @@ function markActiveLink() {
             for (const key in navLinks) {
                 if (navLinks[key] === page[0]) {
                     activeLink.classList.add("active-nav-link");
-                    console.log(activeLink);
                 } else {
                     const tempLink = document.getElementById(navLinks[key]);
                     tempLink.classList.remove("active-nav-link");
