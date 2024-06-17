@@ -91,14 +91,15 @@ Work in progress!
 ### Review
 
 -   [x] Finalise copy
--   [ ] Scan for issues
+-   [ ] Site links to github and sites etc.
 -   [x] Consider nav bar menu
 -   [x] Hoverable elements
 -   [ ] Colours
--   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
 -   [x] Review projectData
+-   [ ] Scan for issues
+-   [ ] Feedback
 -   [ ] Tidy
 
 ### Stretch-Goals
@@ -110,3 +111,4 @@ Work in progress!
 -   [ ] Skill Box animations
 -   [ ] Skill Box borders
 -   [x] Throttling
+-   [ ] Nav bar infront of animated elements

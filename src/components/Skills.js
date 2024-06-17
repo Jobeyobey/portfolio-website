@@ -35,7 +35,7 @@ export default function Skills() {
                             <li>Javascript</li>
                             <li>HTML/CSS</li>
                             <li>React</li>
-                            <li>Flast</li>
+                            <li>Flask</li>
                             <li>Git</li>
                             <li>Rest API&apos;s</li>
                         </ul>
