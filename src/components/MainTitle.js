@@ -17,7 +17,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={`/images/github-dark.svg`}
+                        src={`/github-dark.svg`}
                         width="20"
                         height="20"
                         aria-hidden="true"
@@ -32,7 +32,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={`/images/linkedin-light.svg`}
+                        src={`/linkedin-light.svg`}
                         width="20"
                         height="20"
                         aria-hidden="true"
