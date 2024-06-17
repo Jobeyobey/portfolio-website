@@ -1,10 +1,11 @@
 const handleScroll = () => {
+    console.log("SCROLLING");
     /* Nav scroll */
     checkNavBg();
 
     /* Fade-in Animations */
-    let fadeList = getFadeList();
-    checkFade(fadeList);
+    let revealList = getRevealList();
+    checkReveal(revealList);
 };
 
 const checkNavBg = () => {
@@ -15,21 +16,39 @@ const checkNavBg = () => {
     }
 };
 
-const getFadeList = () => {
+const getRevealList = () => {
     const fadePrepList = document.querySelectorAll(".fade-prep");
+    const titlePrepList = document.querySelectorAll(".section-title-hidden");
+    const underscorePrepList = document.querySelectorAll(
+        ".section-underscore-hidden"
+    );
 
     const fadeList = Array.from(fadePrepList);
+    const titleList = Array.from(titlePrepList);
+    const underscoreList = Array.from(underscorePrepList);
 
-    return fadeList;
+    const revealList = fadeList.concat(titleList.concat(underscoreList));
+
+    return revealList;
 };
 
-const checkFade = (fadeList) => {
+const checkReveal = (revealList) => {
     const viewportHeight = window.innerHeight;
-    if (fadeList.length !== 0) {
-        for (const element of fadeList) {
+    if (revealList.length !== 0) {
+        for (const element of revealList) {
             if (element.offsetTop < window.scrollY + viewportHeight / 1.5) {
-                element.classList.remove("fade-prep");
-                element.classList.add("fade-in");
+                if (element.classList.contains("section-title-hidden")) {
+                    element.classList.remove("section-title-hidden");
+                } else if (
+                    element.classList.contains("section-underscore-hidden")
+                ) {
+                    element.classList.remove("section-underscore-hidden");
+                } else {
+                    setTimeout(() => {
+                        element.classList.remove("fade-prep");
+                        element.classList.add("fade-in");
+                    }, 200);
+                }
             }
         }
     }
@@ -45,11 +64,23 @@ const handleWindowResize = () => {
     resizeNavBg();
 };
 
+const throttle = (func, delay) => {
+    let time = Date.now();
+
+    return () => {
+        if (time + delay - Date.now() <= 0) {
+            func();
+            time = Date.now();
+        }
+    };
+};
+
 module.exports = {
     handleScroll,
     resizeNavBg,
     handleWindowResize,
-    getFadeList,
-    checkFade,
+    getRevealList,
+    checkReveal,
     checkNavBg,
+    throttle,
 };

@@ -11,23 +11,24 @@ import {
     handleScroll,
     resizeNavBg,
     handleWindowResize,
-    getFadeList,
-    checkFade,
+    getRevealList,
+    checkReveal,
     checkNavBg,
+    throttle,
 } from "../utils/utils.js";
 
 export default function Home() {
     React.useEffect(() => {
         checkNavBg();
         resizeNavBg();
-        const fadeList = getFadeList();
-        checkFade(fadeList);
+        const revealList = getRevealList();
+        checkReveal(revealList);
 
         window.addEventListener("resize", handleWindowResize);
-        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", throttle(handleScroll, 100));
         return () => {
             window.removeEventListener("resize", handleWindowResize);
-            window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("scroll", throttle(handleScroll));
         };
     });
 

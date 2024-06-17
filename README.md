@@ -105,7 +105,8 @@ Work in progress!
 
 #### Animation
 
--   [ ] Title intro
+-   [x] Title intro
+-   [x] Section titles animated
 -   [ ] Skill Box animations
 -   [ ] Skill Box borders
 -   [ ] Throttling
