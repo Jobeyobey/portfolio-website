@@ -2,9 +2,7 @@
 const nextConfig = {
     output: "export",
     reactStrictMode: true,
-    images: {
-        unoptimized: true,
-    },
+    basePath: "/portfolio-website",
 };
 
 export default nextConfig;

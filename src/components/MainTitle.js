@@ -21,7 +21,6 @@ export default function MainTitle() {
                         width="20"
                         height="20"
                         aria-hidden="true"
-                        unoptimized
                     />
                     <span className="button-text">Github</span>
                 </a>
@@ -37,7 +36,6 @@ export default function MainTitle() {
                         width="20"
                         height="20"
                         aria-hidden="true"
-                        unoptimized
                     />
                     <span className="button-text">LinkedIn</span>
                 </a>

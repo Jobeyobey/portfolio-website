@@ -57,7 +57,6 @@ export default function Project(props) {
                 height={300}
                 alt={props.imgAlt}
                 className="fade-project-in fade-selector"
-                unoptimized
             />
         </div>
     );

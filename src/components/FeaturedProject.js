@@ -65,7 +65,6 @@ export default function FeaturedProject() {
                         width={480}
                         height={260}
                         alt="A laptop and mobile displaying The Boardgame Companion"
-                        unoptimized
                     />
                 </div>
             </div>
