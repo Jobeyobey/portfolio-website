@@ -90,15 +90,15 @@ Work in progress!
 
 ### Review
 
--   [ ] Finalise copy
+-   [x] Finalise copy
 -   [ ] Scan for issues
--   [ ] Consider nav bar menu
--   [ ] Hoverable elements
+-   [x] Consider nav bar menu
+-   [x] Hoverable elements
 -   [ ] Colours
 -   [ ] Feedback
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
--   [ ] Review projectData (can add git/site links in there) (alt text)
+-   [x] Review projectData
 -   [ ] Tidy
 
 ### Stretch-Goals
@@ -109,4 +109,4 @@ Work in progress!
 -   [x] Section titles animated
 -   [ ] Skill Box animations
 -   [ ] Skill Box borders
--   [ ] Throttling
+-   [x] Throttling

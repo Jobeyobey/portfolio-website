@@ -5,7 +5,7 @@ export default function Skills() {
         <section id="skills">
             <SectionTitle
                 title="Skills and Experience"
-                subtitle="I intend to use these to pay the bills"
+                subtitle="Work, Coding and Personal"
             />
             <div className="fade-prep">
                 <div className="skill-boxes-container">

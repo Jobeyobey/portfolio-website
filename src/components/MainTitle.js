@@ -41,9 +41,19 @@ export default function MainTitle() {
                 </a>
             </div>
             <p className="bio fade-prep">
-                I&apos;m looking for a job because I would like to have one. I
-                would like to work for money. I would like to make money while
-                having fun so I can buy things I like while doing things I like.
+                Two years ago, with a prior interest in computers and a passion
+                for continuous learning and improvement, I began to teach myself
+                programming in my spare time.
+            </p>
+            <p className="bio fade-prep">
+                I've enjoyed the problem-solving aspects when creating projects
+                enough that I have made it my goal to make a career change into
+                software development.
+            </p>
+            <p className="bio fade-prep">
+                I believe I've built a solid foundational knowledge of
+                programming, where I can confidently continue to grow in my
+                career as a Software Developer.
             </p>
         </section>
     );

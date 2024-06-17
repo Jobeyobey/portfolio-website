@@ -136,17 +136,32 @@ main {
     overflow: hidden;
 }
 
+button:hover {
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    scale: 0.8;
+}
+
+.site-link:active {
+    scale: 0.8;
+}
+
 /* Fade in Animations */
 
 .fade-in {
     opacity: 1;
-    /* transform: translateY(0px); */
-    transition: all 0.5s ease-in;
+    transition: all 0.7s ease-in;
 }
 
 .fade-prep {
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(50px);
 }
 
 /* Landing Area Styling */
@@ -214,6 +229,10 @@ main {
     border-radius: 5px;
 }
 
+.button-anchor:active {
+    scale: 0.8;
+}
+
 .git-button {
     margin-right: 0.7em;
     background-color: var(--gitColour);
@@ -254,7 +273,7 @@ main {
 }
 
 .bio {
-    margin: auto;
+    margin: 2em auto auto auto;
     width: 80%;
     max-width: 36em;
     font-family: "inter";
