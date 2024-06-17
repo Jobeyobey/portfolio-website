@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { basePath } from "../../next.config.mjs";
+import nextConfig from "../../next.config.mjs";
 
 export default function MainTitle() {
     return (
@@ -18,7 +18,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={`${basePath}/images/github-dark.svg`}
+                        src={`${nextConfig.basePath}/images/github-dark.svg`}
                         width="20"
                         height="20"
                         aria-hidden="true"
@@ -33,7 +33,7 @@ export default function MainTitle() {
                 >
                     <Image
                         className="button-svg"
-                        src={`${basePath}/images/linkedin-light.svg`}
+                        src={`${nextConfig.basePath}/images/linkedin-light.svg`}
                         width="20"
                         height="20"
                         aria-hidden="true"

@@ -1,6 +1,6 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import basePath from "../../next.config.mjs";
+import nextConfig from "../../next.config.mjs";
 
 export default function Contact() {
     return (
@@ -24,7 +24,7 @@ export default function Contact() {
                         aria-label="Joe Hollands Github"
                     >
                         <Image
-                            src={`${basePath}/images/github-light.svg`}
+                            src={`${nextConfig.basePath}/images/github-light.svg`}
                             width="20"
                             height="20"
                             aria-hidden="true"
@@ -36,7 +36,7 @@ export default function Contact() {
                         aria-label="Joe Hollands LinkedIn"
                     >
                         <Image
-                            src={`${basePath}/images/linkedin-blue.svg`}
+                            src={`${nextConfig.basePath}/images/linkedin-blue.svg`}
                             width="20"
                             height="20"
                             aria-hidden="true"
