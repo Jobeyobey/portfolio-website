@@ -1,5 +1,4 @@
 const handleScroll = () => {
-    console.log("SCROLLING");
     /* Nav scroll */
     checkNavBg();
 
@@ -75,6 +74,35 @@ const throttle = (func, delay) => {
     };
 };
 
+function markActiveLink() {
+    // Timeout gives time to read URL. Without it, active link isn't udpated on click
+    setTimeout(() => {
+        const navLinks = {
+            about: "#about",
+            skills: "#skills",
+            projects: "#featured-project",
+            contact: "#contact",
+        };
+
+        const url = window.location.href;
+        const pageRegEx = /#.+/g;
+        const page = url.match(pageRegEx);
+        const activeLink = document.getElementById(page);
+
+        if (page !== null) {
+            for (const key in navLinks) {
+                if (navLinks[key] === page[0]) {
+                    activeLink.classList.add("active-nav-link");
+                    console.log(activeLink);
+                } else {
+                    const tempLink = document.getElementById(navLinks[key]);
+                    tempLink.classList.remove("active-nav-link");
+                }
+            }
+        }
+    }, 1);
+}
+
 module.exports = {
     handleScroll,
     resizeNavBg,
@@ -83,4 +111,5 @@ module.exports = {
     checkReveal,
     checkNavBg,
     throttle,
+    markActiveLink,
 };

@@ -98,7 +98,15 @@ main {
 }
 
 .nav-bar ul a:hover {
-    background-color: var(--myGreenHover);
+    filter: brightness(100);
+}
+
+.nav-bar ul a:active {
+    scale: 0.8;
+}
+
+.active-nav-link {
+    text-decoration: underline !important;
 }
 
 .nav-bg {

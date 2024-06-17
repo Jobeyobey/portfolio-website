@@ -1,20 +1,33 @@
 import React from "react";
+import { markActiveLink } from "../utils/utils";
 
 export default function Navbar() {
     return (
         <nav className="nav-bar">
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <a id="#about" href="#about" onClick={markActiveLink}>
+                        About
+                    </a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a id="#skills" href="#skills" onClick={markActiveLink}>
+                        Skills
+                    </a>
                 </li>
                 <li>
-                    <a href="#featured-project">Projects</a>
+                    <a
+                        id="#featured-project"
+                        href="#featured-project"
+                        onClick={markActiveLink}
+                    >
+                        Projects
+                    </a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a id="#contact" href="#contact" onClick={markActiveLink}>
+                        Contact
+                    </a>
                 </li>
             </ul>
         </nav>
