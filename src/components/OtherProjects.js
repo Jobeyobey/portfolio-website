@@ -43,7 +43,11 @@ export default function OtherProjects() {
         setTimeout(() => {
             setProjects((prevState) => {
                 return prevState.map((project) => {
-                    if (project.languages.includes(selectedButton.name)) {
+                    if (selectedButton.name === "All") {
+                        return { ...project, enabled: true };
+                    } else if (
+                        project.languages.includes(selectedButton.name)
+                    ) {
                         return { ...project, enabled: true };
                     } else {
                         return { ...project, enabled: false };

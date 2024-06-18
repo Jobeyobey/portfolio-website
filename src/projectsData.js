@@ -2,19 +2,6 @@ import nextConfig from "../next.config.mjs";
 
 const projectsData = [
     {
-        id: 0,
-        title: "The Boardgame Companion",
-        subtitle: "Personal Project",
-        languages: ["Python", "HTML/CSS", "JavaScript", "SQL", "REST API"],
-        description1:
-            "The Boardgame Companion is a web-app that allows users to track and share their boardgame collection and gameplay statistics with their friends.",
-        description2:
-            "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework.",
-        imgSrc: `${nextConfig.basePath}/images/Boardgame-Companion.png`,
-        imgAlt: "Animation showing The Boardgame Companion.",
-        enabled: false,
-    },
-    {
         id: 1,
         title: "Command-Line Battle",
         subtitle: "C# Player's Guide - Final Project",
@@ -38,7 +25,7 @@ const projectsData = [
             "Built using React, it also uses cookies to track player statistics, and allows the user to change the amount of dice, as well as the game mode.",
         imgSrc: `${nextConfig.basePath}/images/Tenzies.png`,
         imgAlt: "Animation showing the Tenzies gameplay.",
-        enabled: false,
+        enabled: true,
     },
     {
         id: 3,
@@ -51,7 +38,7 @@ const projectsData = [
             "Using the inputs from the user, a quiz is created by fetching questions that match the input criteria from an API. Once the user has selected their answers, they can submit them and see their score.",
         imgSrc: `${nextConfig.basePath}/images/React-Quiz-App.png`,
         imgAlt: "Animation showing a user playing the Quiz App game.",
-        enabled: false,
+        enabled: true,
     },
     {
         id: 4,
@@ -90,7 +77,7 @@ const projectsData = [
             "When 'generate meme' is clicked, an image is fetched asynchronously from a database, and the text is displayed on top.",
         imgSrc: `${nextConfig.basePath}/images/React-Meme-Generator.png`,
         imgAlt: "A meme of 3 monkeys on a sofa, with the caption 'when you decide to start learning programming'.",
-        enabled: false,
+        enabled: true,
     },
     {
         id: 7,
@@ -102,7 +89,7 @@ const projectsData = [
         description2: null,
         imgSrc: `${nextConfig.basePath}/images/Desktop-Portfolio-Dark.png`,
         imgAlt: "Animation showing an app switching between light and dark mode.",
-        enabled: false,
+        enabled: true,
     },
     {
         id: 8,
@@ -115,7 +102,7 @@ const projectsData = [
             "I was sure to follow accessibility guidelines, using ARIA labels to hide decorative elements from screen readers and add additional information to buttons. I designed the projects section in a way that I can easily add new projects in future as and when I complete them.",
         imgSrc: `${nextConfig.basePath}/images/Desktop-Portfolio-Dark.png`,
         imgAlt: "Animation showing this website.",
-        enabled: false,
+        enabled: true,
     },
     {
         id: 9,
@@ -128,7 +115,20 @@ const projectsData = [
             "Using Bootstrap, I created several carousel banners. I also implemented a filter to filter heroes by their role. The website is responsive and can be viewed on both desktop and mobile.",
         imgSrc: `${nextConfig.basePath}/images/CS50-Webpage.png`,
         imgAlt: "Animation showing a website about the Overwatch 2 videogame.",
-        enabled: false,
+        enabled: true,
+    },
+    {
+        id: 10,
+        title: "The Boardgame Companion",
+        subtitle: "Personal Project",
+        languages: ["Python", "HTML/CSS", "JavaScript", "SQL", "REST API"],
+        description1:
+            "The Boardgame Companion is a web-app that allows users to track and share their boardgame collection and gameplay statistics with their friends.",
+        description2:
+            "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework.",
+        imgSrc: `${nextConfig.basePath}/images/Boardgame-Companion.png`,
+        imgAlt: "Animation showing The Boardgame Companion.",
+        enabled: true,
     },
 ];
 

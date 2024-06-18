@@ -1,10 +1,17 @@
 const languageData = [
     {
+        id: 0,
+        name: "All",
+        className: "all",
+        color: "#376f9e",
+        enabled: true,
+    },
+    {
         id: 1,
         name: "C#",
         className: "csharp",
         colour: "#376f9e",
-        enabled: true,
+        enabled: false,
     },
     {
         id: 2,
@@ -39,13 +46,6 @@ const languageData = [
         name: "SQL",
         className: "sql",
         colour: "#e9e9e9",
-        enabled: false,
-    },
-    {
-        id: 7,
-        name: "REST API",
-        className: "restapi",
-        colour: "#ffa400",
         enabled: false,
     },
 ];

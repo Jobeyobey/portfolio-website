@@ -494,8 +494,14 @@ button:active {
     background: darkslategray;
 }
 
+.all {
+    background: #519872;
+    color: white;
+}
+
 .python {
     background: var(--pythonGreen);
+    color: white;
 }
 
 .html {
@@ -529,14 +535,17 @@ button:active {
 
 .csharp {
     background: var(--myBlue);
+    color: white;
 }
 
 .react {
     background: var(--myBlue);
+    color: white;
 }
 
 .htmlcss {
     background: var(--htmlRed);
+    color: white;
 }
 
 /* Featured Project */
@@ -677,7 +686,6 @@ button:active {
     border-radius: 2rem;
     font-size: 1rem;
     font-family: "Inter";
-    color: white;
     border: none;
 }
 
@@ -854,12 +862,11 @@ button:active {
 }
 
 .stars {
-    background: #000 url(/portfolio-website/images/stars.png) repeat top center;
+    background: #000 url(/images/stars.png) repeat top center;
 }
 
 .twinkling {
-    background: transparent url(/portfolio-website/images/twinkling.png) repeat
-        top center;
+    background: transparent url(/images/twinkling.png) repeat top center;
     animation: move-twink-back 500s linear infinite;
     opacity: 50%;
 }
