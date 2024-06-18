@@ -36,7 +36,7 @@ const checkReveal = (revealList) => {
     const viewportHeight = window.innerHeight;
     if (revealList.length !== 0) {
         for (const element of revealList) {
-            if (element.offsetTop < window.scrollY + viewportHeight / 1.5) {
+            if (element.offsetTop < window.scrollY + viewportHeight / 1.4) {
                 if (element.classList.contains("section-title-hidden")) {
                     element.classList.remove("section-title-hidden");
                 } else if (

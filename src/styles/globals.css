@@ -164,7 +164,7 @@ button:active {
 
 .fade-in {
     opacity: 1;
-    transition: all 0.7s ease-in;
+    transition: all 0.6s ease-in;
 }
 
 .fade-prep {
