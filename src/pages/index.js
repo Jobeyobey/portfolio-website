@@ -15,7 +15,6 @@ import {
     checkReveal,
     checkNavBg,
     throttle,
-    markActiveLink,
 } from "../utils/utils.js";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
         resizeNavBg();
         const revealList = getRevealList();
         checkReveal(revealList);
-        markActiveLink();
 
         window.addEventListener("resize", handleWindowResize);
         window.addEventListener("scroll", throttle(handleScroll, 100));

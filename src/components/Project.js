@@ -20,7 +20,7 @@ export default function Project(props) {
 
         return (
             <div key={index} className={`language-container ${languageClass}`}>
-                <p>{language}</p>
+                <p className="project-language">{language}</p>
             </div>
         );
     });

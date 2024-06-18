@@ -53,7 +53,7 @@ main {
 }
 
 #skills {
-    scroll-margin-top: 14rem;
+    scroll-margin-top: 12rem;
 }
 
 #featured-project {
@@ -62,10 +62,13 @@ main {
 
 @media (max-width: 480px) {
     #skills {
-        scroll-margin-top: 11rem;
+        scroll-margin-top: 5rem;
     }
     #featured-project {
-        scroll-margin-top: 10rem;
+        scroll-margin-top: 6rem;
+    }
+    #contact {
+        scroll-margin-top: -4rem;
     }
 }
 
@@ -97,16 +100,13 @@ main {
     text-decoration: none;
 }
 
-.nav-bar ul a:hover {
-    filter: brightness(100);
-}
-
 .nav-bar ul a:active {
     scale: 0.8;
 }
 
 .active-nav-link {
-    text-decoration: underline !important;
+    background-color: var(--myGreenHover);
+    transition: all 0.2s;
 }
 
 .nav-bg {
@@ -732,7 +732,11 @@ button:active {
     gap: 1rem;
 }
 
-.project-container p {
+.project-language {
+    font-weight: 300;
+}
+
+.project-description {
     font-weight: 200;
 }
 
