@@ -491,7 +491,8 @@ button:active {
 /* Language Containers */
 
 .disabled {
-    background: darkslategray;
+    color: #d3d3d3;
+    background: #2f4f4f;
 }
 
 .all {
@@ -750,6 +751,14 @@ button:active {
 
 .fade-project-in {
     animation: project-fade 0.5s;
+}
+
+.project-image {
+    margin: auto 0;
+    border: 2px solid white;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: #777 0 0 1rem;
 }
 
 @keyframes project-fade {
