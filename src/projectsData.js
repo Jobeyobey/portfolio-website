@@ -13,6 +13,7 @@ const projectsData = [
         imgSrc: `${nextConfig.basePath}/images/Final-Battle.png`,
         imgAlt: "Animation showing the Command-Line Battle gameplay.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/C-Players-Guide-Part-4-The-End-Game",
     },
     {
         id: 2,
@@ -26,6 +27,7 @@ const projectsData = [
         imgSrc: `${nextConfig.basePath}/images/GIF/React-Tenzies.gif`,
         imgAlt: "Animation showing the Tenzies gameplay.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/scrimba-react-tenzies-app",
     },
     {
         id: 3,
@@ -39,6 +41,7 @@ const projectsData = [
         imgSrc: `${nextConfig.basePath}/images/GIF/React-Quiz.gif`,
         imgAlt: "Animation showing a user playing the Quiz App game.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/scrimba-react-quiz-app",
     },
     {
         id: 4,
@@ -52,60 +55,10 @@ const projectsData = [
         imgSrc: `${nextConfig.basePath}/images/GIF/Bridge-To-Valhalla.gif`,
         imgAlt: "Animation showing the Fountain of Objects Game gameplay.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/Create-With-Code---Personal-Project",
     },
     {
         id: 5,
-        title: "Fountain of Objects Game",
-        subtitle: "C# Players Guide - OOP Practice",
-        languages: ["C#"],
-        description1:
-            "To gain a deeper understanding of Object-Oriented Programming, I created a game following the rules set out in the C# Players Guide book.",
-        description2:
-            "The player can choose between a small, medium and large map, which consists of a grid. They move through the grid by inputting console commands, receiving information about their current and adjacent cells. They can kill monsters, avoid pits, and eventually enable the Fountain of Objects. Once this condition has been enabled, they can escape by returning to the start.",
-        imgSrc: `${nextConfig.basePath}/images/GIF/Fountain-of-Objects.gif`,
-        imgAlt: "Animation showing the Fountain of Objects Game gameplay.",
-        enabled: true,
-    },
-    {
-        id: 6,
-        title: "Meme Generator",
-        subtitle: "React Practice",
-        languages: ["React", "JavaScript", "HTML/CSS"],
-        description1:
-            "Using React, a user is able to use forms to input text that they would like to place on a random meme image.",
-        description2:
-            "When 'generate meme' is clicked, an image is fetched asynchronously from a database, and the text is displayed on top.",
-        imgSrc: `${nextConfig.basePath}/images/GIF/Meme-Generator.gif`,
-        imgAlt: "A meme of 3 monkeys on a sofa, with the caption 'when you decide to start learning programming'.",
-        enabled: true,
-    },
-    {
-        id: 7,
-        title: "Dark Mode",
-        subtitle: "React Practice",
-        languages: ["React", "JavaScript", "HTML/CSS"],
-        description1:
-            "Using React State to enable/disable a dark mode for a website.",
-        description2: null,
-        imgSrc: `${nextConfig.basePath}/images/GIF/React-Dark-Mode.gif`,
-        imgAlt: "Animation showing an app switching between light and dark mode.",
-        enabled: true,
-    },
-    {
-        id: 8,
-        title: "Portfolio Website",
-        subtitle: "This one may be familiar",
-        languages: ["React", "JavaScript", "HTML/CSS"],
-        description1:
-            "This website is made using React. It is responsive and is viewable on all device sizes.",
-        description2:
-            "I was sure to follow accessibility guidelines, using ARIA labels to hide decorative elements from screen readers and add additional information to buttons. I designed the projects section in a way that I can easily add new projects in future as and when I complete them.",
-        imgSrc: `${nextConfig.basePath}/images/Portfolio.png`,
-        imgAlt: "Animation showing this website.",
-        enabled: true,
-    },
-    {
-        id: 9,
         title: "Homepage Project",
         subtitle: "CS50x Project",
         languages: ["HTML/CSS"],
@@ -116,9 +69,24 @@ const projectsData = [
         imgSrc: `${nextConfig.basePath}/images/GIF/CS50-Webpage.gif`,
         imgAlt: "Animation showing a website about the Overwatch 2 videogame.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/CS50-Homepage-Project",
     },
     {
-        id: 10,
+        id: 6,
+        title: "Portfolio Website",
+        subtitle: "This one may be familiar",
+        languages: ["React", "JavaScript", "HTML/CSS"],
+        description1:
+            "This website is made using React. It is responsive and is viewable on all device sizes.",
+        description2:
+            "I was sure to follow accessibility guidelines, using ARIA labels to hide decorative elements from screen readers and add additional information to buttons. I designed the projects section in a way that I can easily add new projects in future as and when I complete them.",
+        imgSrc: `${nextConfig.basePath}/images/Portfolio.png`,
+        imgAlt: "Animation showing this website.",
+        enabled: true,
+        github: "https://github.com/Jobeyobey/portfolio-website",
+    },
+    {
+        id: 7,
         title: "The Boardgame Companion",
         subtitle: "Personal Project",
         languages: ["Python", "HTML/CSS", "JavaScript", "SQL", "REST API"],
@@ -126,9 +94,51 @@ const projectsData = [
             "The Boardgame Companion is a web-app that allows users to track and share their boardgame collection and gameplay statistics with their friends.",
         description2:
             "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework.",
-        imgSrc: `${nextConfig.basePath}/images/Boardgame-Companion.png`,
+        imgSrc: `${nextConfig.basePath}/images/Boardgame-Companion-Other.png`,
         imgAlt: "Animation showing The Boardgame Companion.",
         enabled: true,
+        github: "https://github.com/Jobeyobey/cs50-final-project",
+    },
+    {
+        id: 8,
+        title: "Meme Generator",
+        subtitle: "React Practice",
+        languages: ["React", "JavaScript", "HTML/CSS"],
+        description1:
+            "Using React, a user is able to use forms to input text that they would like to place on a random meme image.",
+        description2:
+            "When 'generate meme' is clicked, an image is fetched asynchronously from a database, and the text is displayed on top.",
+        imgSrc: `${nextConfig.basePath}/images/GIF/Meme-Generator.gif`,
+        imgAlt: "A meme of 3 monkeys on a sofa, with the caption 'when you decide to start learning programming'.",
+        enabled: true,
+        github: undefined,
+    },
+    {
+        id: 9,
+        title: "Fountain of Objects Game",
+        subtitle: "C# Players Guide - OOP Practice",
+        languages: ["C#"],
+        description1:
+            "To gain a deeper understanding of Object-Oriented Programming, I created a game following the rules set out in the C# Players Guide book.",
+        description2:
+            "The player can choose between a small, medium and large map, which consists of a grid. They move through the grid by inputting console commands, receiving information about their current and adjacent cells. They can kill monsters, avoid pits, and eventually enable the Fountain of Objects. Once this condition has been enabled, they can escape by returning to the start.",
+        imgSrc: `${nextConfig.basePath}/images/GIF/Fountain-of-Objects.gif`,
+        imgAlt: "Animation showing the Fountain of Objects Game gameplay.",
+        enabled: true,
+        github: undefined,
+    },
+    {
+        id: 10,
+        title: "Dark Mode",
+        subtitle: "React Practice",
+        languages: ["React", "JavaScript", "HTML/CSS"],
+        description1:
+            "Using React State to enable/disable a dark mode for a website.",
+        description2: undefined,
+        imgSrc: `${nextConfig.basePath}/images/GIF/React-Dark-Mode.gif`,
+        imgAlt: "Animation showing an app switching between light and dark mode.",
+        enabled: true,
+        github: undefined,
     },
 ];
 

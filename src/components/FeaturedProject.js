@@ -45,16 +45,16 @@ export default function FeaturedProject() {
                         <div className="center-links">
                             <a
                                 className="site-link"
-                                href="#"
-                                target="#"
+                                href="http://jobeyobey.pythonanywhere.com/login"
+                                target="_blank"
                                 aria-label="The Board Game Companion"
                             >
                                 View Site
                             </a>
                             <a
                                 className="site-link"
-                                href="#"
-                                target="#"
+                                href="https://github.com/Jobeyobey"
+                                target="_blank"
                                 aria-label="Github Repository for The Board Game Companion"
                             >
                                 Github

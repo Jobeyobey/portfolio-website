@@ -95,6 +95,7 @@ export default function OtherProjects() {
                     imgSrc={project.imgSrc}
                     imgAlt={project.imgAlt}
                     enabled={project.enabled}
+                    github={project.github}
                 />
             );
         }

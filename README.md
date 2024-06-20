@@ -39,9 +39,8 @@ Work in progress!
 #### Resources
 
 -   [x] Fonts
--   [ ] Images
--   [ ] Gifs
--   [ ] Lottie Files?
+-   [x] Images
+-   [ ] Gifs - Re-Export or Resize, weird blue hexes on desktop
 -   [x] Project Data
 -   [ ] Replace Favicon
 -   [ ] CV
@@ -91,7 +90,7 @@ Work in progress!
 ### Review
 
 -   [x] Finalise copy
--   [ ] Site links to github and sites etc.
+-   [x] Site links to github and sites etc.
 -   [x] Consider nav bar menu
 -   [x] Hoverable elements
 -   [ ] Colours
@@ -99,6 +98,7 @@ Work in progress!
 -   [ ] Check for leftover Next.Js template code
 -   [x] Review projectData
 -   [ ] Scan for issues
+-   [ ] Final Battle CLI Colours
 -   [ ] Feedback
 -   [ ] Tidy
 

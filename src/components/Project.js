@@ -26,6 +26,7 @@ export default function Project(props) {
     });
 
     const isDescription2 = props.description2 !== undefined;
+    const isGitLink = props.github !== undefined;
 
     return (
         <div className={classString}>
@@ -43,13 +44,16 @@ export default function Project(props) {
                 {isDescription2 && (
                     <p className="project-description">{props.description2}</p>
                 )}
-                <a
-                    className="site-link"
-                    href="#"
-                    aria-label={`Github Repository for ${props.title} `}
-                >
-                    Github
-                </a>
+                {isGitLink && (
+                    <a
+                        className="site-link"
+                        href={props.github}
+                        aria-label={`Github Repository for ${props.title} `}
+                        target="_blank"
+                    >
+                        Github
+                    </a>
+                )}
             </div>
             <Image
                 src={props.imgSrc}
