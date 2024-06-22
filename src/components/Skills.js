@@ -2,7 +2,7 @@ import SectionTitle from "./SectionTitle";
 
 export default function Skills() {
     return (
-        <section id="skills">
+        <section id="skills" tabIndex="0" aria-label="Skills Section">
             <SectionTitle
                 title="Skills and Experience"
                 subtitle="Work, Coding and Personal"

@@ -10,7 +10,11 @@ export default function FeaturedProject() {
     const isSiteLink = featuredProject.siteLink !== "";
 
     return (
-        <section id="featured-project">
+        <section
+            id="featured-project"
+            tabIndex="0"
+            aria-label="Project Section"
+        >
             <SectionTitle
                 title="Featured Project"
                 subtitle={featuredProject.title}

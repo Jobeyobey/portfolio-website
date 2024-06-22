@@ -3,7 +3,12 @@ import nextConfig from "../../next.config.mjs";
 
 export default function MainTitle() {
     return (
-        <section id="about" className="title-container">
+        <section
+            id="about"
+            className="title-container"
+            tabIndex="0"
+            aria-label="About Section"
+        >
             <div className="titles-mask">
                 <h1 className={"main-title"}>Joe Hollands</h1>
                 <h2>Junior Software Developer</h2>

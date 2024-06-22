@@ -4,7 +4,7 @@ import nextConfig from "../../next.config.mjs";
 
 export default function Contact() {
     return (
-        <section id="contact">
+        <section id="contact" tabIndex="0" aria-label="Contact Section">
             <SectionTitle
                 title="Contact"
                 subtitle="Open to job opportunities"
