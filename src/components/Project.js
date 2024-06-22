@@ -27,6 +27,7 @@ export default function Project(props) {
 
     const isDescription2 = props.description2 !== undefined;
     const isGitLink = props.github !== undefined;
+    const isSiteLink = props.siteLink !== "";
 
     return (
         <div className={classString}>
@@ -43,6 +44,16 @@ export default function Project(props) {
                 <p className="project-description">{props.description1}</p>
                 {isDescription2 && (
                     <p className="project-description">{props.description2}</p>
+                )}
+                {isSiteLink && (
+                    <a
+                        className="site-link"
+                        href={props.siteLink}
+                        target="_blank"
+                        aria-label={props.title}
+                    >
+                        View Site
+                    </a>
                 )}
                 {isGitLink && (
                     <a
@@ -65,12 +76,9 @@ export default function Project(props) {
                     autoPlay
                     loop
                     className="project-video fade-project-in fade-selector"
+                    aria-label={props.imgAlt}
                 >
-                    <source
-                        src={props.imgSrc}
-                        type="video/webm"
-                        aria-label={props.imgAlt}
-                    ></source>
+                    <source src={props.imgSrc} type="video/webm"></source>
                 </video>
             ) : (
                 <Image

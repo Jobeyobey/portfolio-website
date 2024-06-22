@@ -94,9 +94,10 @@ export default function OtherProjects() {
                     description2={project.description2}
                     imgSrc={project.imgSrc}
                     imgAlt={project.imgAlt}
-                    enabled={project.enabled}
-                    github={project.github}
                     isVideo={project.isVideo}
+                    siteLink={project.siteLink}
+                    github={project.github}
+                    enabled={project.enabled}
                 />
             );
         }

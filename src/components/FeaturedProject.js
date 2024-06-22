@@ -1,13 +1,19 @@
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
 import nextConfig from "../../next.config.mjs";
+import projectsData from "@/projectsData";
 
 export default function FeaturedProject() {
+    let featuredProject = projectsData.filter((project) => {
+        return project.isFeature === true;
+    })[0];
+    const isSiteLink = featuredProject.siteLink !== "";
+
     return (
         <section id="featured-project">
             <SectionTitle
                 title="Featured Project"
-                subtitle="The Boardgame Companion"
+                subtitle={featuredProject.title}
             />
             <div className="fade-prep">
                 <div
@@ -33,39 +39,38 @@ export default function FeaturedProject() {
                 <div className="feature-container">
                     <div className="feature-info">
                         <p className="project-desc-1">
-                            The Boardgame Companion is a web-app that allows
-                            users to track and share their boardgame collection
-                            and gameplay statistics with their friends.
+                            {featuredProject.description1}
                         </p>
                         <p className="project-desc-2">
-                            It uses Python as a back-end, storing user data in
-                            an SQL database. The front-end uses the Flask
-                            framework.
+                            {featuredProject.description2}
                         </p>
                         <div className="center-links">
+                            {isSiteLink && (
+                                <a
+                                    className="site-link"
+                                    href={featuredProject.siteLink}
+                                    target="_blank"
+                                    aria-label={featuredProject.title}
+                                >
+                                    View Site
+                                </a>
+                            )}
+
                             <a
                                 className="site-link"
-                                href="http://jobeyobey.pythonanywhere.com/login"
+                                href={featuredProject.github}
                                 target="_blank"
-                                aria-label="The Board Game Companion"
-                            >
-                                View Site
-                            </a>
-                            <a
-                                className="site-link"
-                                href="https://github.com/Jobeyobey"
-                                target="_blank"
-                                aria-label="Github Repository for The Board Game Companion"
+                                aria-label={`Github Repository for ${featuredProject.title}`}
                             >
                                 Github
                             </a>
                         </div>
                     </div>
                     <Image
-                        src={`${nextConfig.basePath}/images/Featured-Project.png`}
+                        src={featuredProject.featureImgSrc}
                         width={480}
                         height={260}
-                        alt="A laptop and mobile displaying The Boardgame Companion"
+                        alt={featuredProject.featuredImgAlt}
                     />
                 </div>
             </div>
