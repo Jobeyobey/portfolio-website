@@ -93,8 +93,8 @@ Work in progress!
 -   [x] Site links to github and sites etc.
 -   [x] Consider nav bar menu
 -   [x] Hoverable elements
--   [ ] Button text is blue on mobile
--   [ ] Touch screens don't disable hover after touch
+-   [x] Button text is blue on mobile
+-   [x] Touch screens don't disable hover after touch
 -   [ ] Colours
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code

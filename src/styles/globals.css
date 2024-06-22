@@ -3,16 +3,17 @@
 :root {
     --max-width: 1100px;
     --border-radius: 12px;
-    --myGreen: #519872;
+    --myGreen: #317852;
     --myGreenHover: #418862;
     --myOrange: #ffa400;
     --myBlack: #1e1e1e;
     --myBlue: #376f9e;
     --offWhite: #fefefe;
     --gitColour: #fefefe;
-    --linkedinColour: #3993dd;
-    --pythonGreen: #519872;
-    --htmlRed: #e05b31;
+    --linkedinColour: #355fc9;
+    --csharpPurple: #6f4af7;
+    --pythonGreen: #3a835c;
+    --htmlRed: #c53f1a;
     --javascriptYellow: #ebe548;
     --javascriptYellowHover: #dbd538;
     --sqlGrey: #e9e9e9;
@@ -100,6 +101,10 @@ main {
     text-decoration: none;
 }
 
+.nav-bar ul a:focus {
+    outline: 0;
+}
+
 .nav-bar ul a:active {
     scale: 0.9;
     transition: 0.1s;
@@ -112,7 +117,7 @@ main {
 }
 
 .inactive-nav-link {
-    color: #a1e8c2 !important;
+    color: #c1ffd2 !important;
     transition: all 0.4s;
 }
 
@@ -544,7 +549,7 @@ button:active {
 }
 
 .csharp {
-    background: var(--myBlue);
+    background: var(--csharpPurple);
     color: white;
 }
 
