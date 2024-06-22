@@ -40,7 +40,7 @@ Work in progress!
 
 -   [x] Fonts
 -   [x] Images
--   [ ] Gifs - Re-Export or Resize, weird blue hexes on desktop
+-   [x] Gifs
 -   [x] Project Data
 -   [ ] Replace Favicon
 -   [ ] CV
