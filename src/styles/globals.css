@@ -106,8 +106,14 @@ main {
 }
 
 .active-nav-link {
-    background-color: var(--myGreenHover);
-    transition: all 0.2s;
+    /* background-color: var(--myGreenHover); */
+    color: white;
+    transition: all 0.4s;
+}
+
+.inactive-nav-link {
+    color: #a1e8c2 !important;
+    transition: all 0.4s;
 }
 
 .nav-bg {
@@ -522,6 +528,7 @@ button:active {
 
 .sql {
     background: var(--sqlGrey);
+    color: var(--myBlack);
 }
 
 .sql p {

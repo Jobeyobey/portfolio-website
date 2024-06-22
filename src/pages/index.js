@@ -25,7 +25,7 @@ export default function Home() {
         checkReveal(revealList);
 
         window.addEventListener("resize", handleWindowResize);
-        window.addEventListener("scroll", throttle(handleScroll, 100));
+        window.addEventListener("scroll", throttle(handleScroll, 50));
         return () => {
             window.removeEventListener("resize", handleWindowResize);
             window.removeEventListener("scroll", throttle(handleScroll));

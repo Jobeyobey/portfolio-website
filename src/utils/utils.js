@@ -75,69 +75,51 @@ const throttle = (func, delay) => {
     };
 };
 
-// function markActiveLink() {
-//     // Timeout gives time to read URL. Without it, active link isn't udpated on click
-//     setTimeout(() => {
-//         const navLinks = {
-//             about: "#about",
-//             skills: "#skills",
-//             projects: "#featured-project",
-//             contact: "#contact",
-//         };
-
-//         const url = window.location.href;
-//         const pageRegEx = /#.+/g;
-//         const page = url.match(pageRegEx);
-//         const activeLink = document.getElementById(page);
-
-//         if (page !== null) {
-//             for (const key in navLinks) {
-//                 if (navLinks[key] === page[0]) {
-//                     activeLink.classList.add("active-nav-link");
-//                 } else {
-//                     const tempLink = document.getElementById(navLinks[key]);
-//                     tempLink.classList.remove("active-nav-link");
-//                 }
-//             }
-//         }
-//     }, 1);
-// }
-
 function checkActiveLinkPos() {
-    const aboutSectionPos = document.getElementById("about").offsetTop;
-    const skillsSectionPos = document.getElementById("skills").offsetTop;
-    const projectSectionPos =
-        document.getElementById("featured-project").offsetTop;
-    const contactSectionPos = document.getElementById("contact").offsetTop;
+    const aboutSection = document.getElementById("about");
+    const skillsSection = document.getElementById("skills");
+    const projectSection = document.getElementById("featured-project");
+    const contactSection = document.getElementById("contact");
+
+    const skillsSectionPos = skillsSection.offsetTop;
+    const projectSectionPos = projectSection.offsetTop;
+    const contactSectionPos = contactSection.offsetTop;
+
+    const sectionsArr = [
+        aboutSection,
+        skillsSection,
+        projectSection,
+        contactSection,
+    ];
 
     if (contactSectionPos < window.scrollY + 500) {
-        document.getElementById("#contact").classList.add("active-nav-link");
-        document
-            .getElementById("#featured-project")
-            .classList.remove("active-nav-link");
-        document.getElementById("#skills").classList.remove("active-nav-link");
-        document.getElementById("#about").classList.remove("active-nav-link");
+        updateNavLinks(contactSection, sectionsArr);
     } else if (projectSectionPos < window.scrollY + 250) {
-        document.getElementById("#contact").classList.remove("active-nav-link");
-        document
-            .getElementById("#featured-project")
-            .classList.add("active-nav-link");
-        document.getElementById("#skills").classList.remove("active-nav-link");
-        document.getElementById("#about").classList.remove("active-nav-link");
+        updateNavLinks(projectSection, sectionsArr);
     } else if (skillsSectionPos < window.scrollY + 250) {
-        document.getElementById("#contact").classList.remove("active-nav-link");
-        document
-            .getElementById("#featured-project")
-            .classList.remove("active-nav-link");
-        document.getElementById("#skills").classList.add("active-nav-link");
-        document.getElementById("#about").classList.remove("active-nav-link");
+        updateNavLinks(skillsSection, sectionsArr);
     } else {
-        document.getElementById("#contact").classList.remove("active-nav-link");
-        document
-            .getElementById("#featured-project")
-            .classList.remove("active-nav-link");
-        document.getElementById("#skills").classList.remove("active-nav-link");
-        document.getElementById("#about").classList.add("active-nav-link");
+        updateNavLinks(aboutSection, sectionsArr);
+    }
+}
+
+function updateNavLinks(activeSection, sectionsArr) {
+    for (const section of sectionsArr) {
+        if (activeSection === section) {
+            document
+                .getElementById(`#${activeSection.id}`)
+                .classList.remove("inactive-nav-link");
+            document
+                .getElementById(`#${activeSection.id}`)
+                .classList.add("active-nav-link");
+        } else if (activeSection !== section) {
+            document
+                .getElementById(`#${section.id}`)
+                .classList.remove("active-nav-link");
+            document
+                .getElementById(`#${section.id}`)
+                .classList.add("inactive-nav-link");
+        }
     }
 }
 
