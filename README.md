@@ -95,14 +95,14 @@ Work in progress!
 -   [x] Hoverable elements
 -   [x] Button text is blue on mobile
 -   [x] Touch screens don't disable hover after touch
--   [ ] Colours
--   [ ] Fix BGC home issue!
+-   [x] Colours
+-   [x] Fix BGC home issue!
+-   [x] Review Bio copy
+-   [ ] Review all project descriptions (e.g. featured project no mention of REST API, FInal Battle sounds generic)
 -   [ ] Check for leftover Next.Js template code
--   [x] Review projectData
+-   [ ] Tidy (Files, Images, Code Comments, anything else)
 -   [ ] Scan for issues
--   [ ] Final Battle CLI Colours
 -   [ ] Feedback
--   [ ] Tidy
 
 ### Stretch-Goals
 

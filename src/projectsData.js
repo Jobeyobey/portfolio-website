@@ -3,18 +3,18 @@ import nextConfig from "../next.config.mjs";
 const projectsData = [
     {
         id: 1,
-        title: "Command-Line Battle",
+        title: "Party Battler",
         subtitle: "C# Player's Guide - Final Project",
         languages: ["C#"],
         description1:
-            "A command-line game, capable of Human v Human, Human v Computer and Computer v Computer gameplay.",
+            "A 'hero' party must defeat several increasingly difficult enemy parties to win the game. Both parties can be controlled by Human or Computer players. Characters can steal items from other characters, and computer players are capable of deciding which items will be effective to use depending on game conditions.",
         description2:
-            "This game is designed using Object-Oriented Programming. Object classes are used for Characters, Items, Attack Types and more. I was sure to follow the core principles of encapsulation, inheritance, polymoprhism and abstraction when making this game.",
+            "Designed using Object-Oriented Programming, there are classes to represent Characters, Items, Attack Types and more. I was sure to follow the core principles of encapsulation, inheritance, polymorphism and abstraction, as well as SOLID principles.",
         imgSrc: `${nextConfig.basePath}/images/Final-Battle.png`,
         imgAlt: "Animation showing the Command-Line Battle gameplay.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/C-Players-Guide-Part-4-The-End-Game",
         isVideo: false,
+        github: "https://github.com/Jobeyobey/C-Players-Guide-Part-4-The-End-Game",
+        enabled: true,
     },
     {
         id: 2,
@@ -24,12 +24,12 @@ const projectsData = [
         description1:
             "The aim of the game is to have all dice showing the same number. Users can update dice state to “hold” them, then roll the remaining dice.",
         description2:
-            "Built using React, it also uses cookies to track player statistics, and allows the user to change the amount of dice, as well as the game mode.",
+            "Built using React, it also uses cookies to track player statistics. The user can change the amount of dice, as well as the game mode. Different player statistics are saved for each combination of dice/game mode.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/React-Tenzies.webm`,
         imgAlt: "Animation showing the Tenzies gameplay.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/scrimba-react-tenzies-app",
         isVideo: true,
+        github: "https://github.com/Jobeyobey/scrimba-react-tenzies-app",
+        enabled: true,
     },
     {
         id: 3,
@@ -42,9 +42,9 @@ const projectsData = [
             "Using the inputs from the user, a quiz is created by fetching questions that match the input criteria from an API. Once the user has selected their answers, they can submit them and see their score.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/React-Quiz.webm`,
         imgAlt: "Animation showing a user playing the Quiz App game.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/scrimba-react-quiz-app",
         isVideo: true,
+        github: "https://github.com/Jobeyobey/scrimba-react-quiz-app",
+        enabled: true,
     },
     {
         id: 4,
@@ -57,9 +57,9 @@ const projectsData = [
             "A timer is used to slowly increase the spawnrate of the attackers, with three different enemy types based on a 'Character' class, one of which will hunt the player down. Periodically spawning health pickups allow the player to heal when they come into contact with them.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/Bridge-To-Valhalla.webm`,
         imgAlt: "Animation showing the Bridge to Valhalla Game gameplay.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/Create-With-Code---Personal-Project",
         isVideo: true,
+        github: "https://github.com/Jobeyobey/Create-With-Code---Personal-Project",
+        enabled: true,
     },
     {
         id: 5,
@@ -67,14 +67,14 @@ const projectsData = [
         subtitle: "CS50x Project",
         languages: ["HTML/CSS"],
         description1:
-            "To practice HTML/CSS I was tasked with creating a simple website consisting of several pages. I decided to make a light version of the Overwatch website.",
+            "To practice HTML/CSS I, I created a simple website consisting of several pages. I decided to make a light version of the Overwatch website.",
         description2:
-            "Using Bootstrap, I created several carousel banners. I also implemented a filter to filter heroes by their role. The website is responsive and can be viewed on both desktop and mobile.",
+            "I implemented a filter to filter heroes by their role, and I created several carousel banners using Bootstrap. The website is responsive and can be viewed on both desktop and mobile.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/CS50-Webpage.webm`,
         imgAlt: "Animation showing a website about the Overwatch 2 videogame.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/CS50-Homepage-Project",
         isVideo: true,
+        github: "https://github.com/Jobeyobey/CS50-Homepage-Project",
+        enabled: true,
     },
     {
         id: 6,
@@ -87,9 +87,9 @@ const projectsData = [
             "I was sure to follow accessibility guidelines, using ARIA labels to hide decorative elements from screen readers and add additional information to buttons. I designed the projects section in a way that I can easily add new projects in future as and when I complete them.",
         imgSrc: `${nextConfig.basePath}/images/Portfolio.png`,
         imgAlt: "Animation showing this website.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/portfolio-website",
         isVideo: false,
+        github: "https://github.com/Jobeyobey/portfolio-website",
+        enabled: true,
     },
     {
         id: 7,
@@ -99,12 +99,12 @@ const projectsData = [
         description1:
             "The Boardgame Companion is a web-app that allows users to track and share their boardgame collection and gameplay statistics with their friends.",
         description2:
-            "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework.",
+            "It uses Python as a back-end, storing user data in an SQL database. The front-end uses the Flask framework. The board game search uses the Boardgame Geek API, filtering out expansions and other products to only show boardgames relevant to the user's search.",
         imgSrc: `${nextConfig.basePath}/images/Boardgame-Companion-Other.png`,
         imgAlt: "Animation showing The Boardgame Companion.",
-        enabled: true,
-        github: "https://github.com/Jobeyobey/cs50-final-project",
         isVideo: false,
+        github: "https://github.com/Jobeyobey/cs50-final-project",
+        enabled: true,
     },
     {
         id: 8,
@@ -117,9 +117,9 @@ const projectsData = [
             "When 'generate meme' is clicked, an image is fetched asynchronously from a database, and the text is displayed on top.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/Meme-Generator.webm`,
         imgAlt: "A meme of 3 monkeys on a sofa, with the caption 'when you decide to start learning programming'.",
-        enabled: true,
-        github: undefined,
         isVideo: true,
+        github: undefined,
+        enabled: true,
     },
     {
         id: 9,
@@ -132,9 +132,9 @@ const projectsData = [
             "The player can choose between a small, medium and large map, which consists of a grid. They move through the grid by inputting console commands, receiving information about their current and adjacent cells. They can kill monsters, avoid pits, and eventually enable the Fountain of Objects. Once this condition has been enabled, they can escape by returning to the start.",
         imgSrc: `${nextConfig.basePath}/images/WEBM/Fountain-of-Objects.webm`,
         imgAlt: "Animation showing the Fountain of Objects Game gameplay.",
-        enabled: true,
-        github: undefined,
         isVideo: true,
+        github: undefined,
+        enabled: true,
     },
     {
         id: 10,
@@ -146,9 +146,9 @@ const projectsData = [
         description2: undefined,
         imgSrc: `${nextConfig.basePath}/images/GIF/React-Dark-Mode.gif`,
         imgAlt: "Animation showing an app switching between light and dark mode.",
-        enabled: true,
-        github: undefined,
         isVideo: false,
+        github: undefined,
+        enabled: true,
     },
 ];
 

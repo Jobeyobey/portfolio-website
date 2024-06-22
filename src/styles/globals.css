@@ -591,7 +591,6 @@ button:active {
 .language-container {
     padding: 0.3rem 0.6rem;
     font-family: "inter";
-    font-weight: 300;
     border-radius: 2rem;
 }
 
@@ -626,7 +625,6 @@ button:active {
     text-decoration: none;
     max-width: 10rem;
     background-color: var(--javascriptYellow);
-    font-weight: 400;
     color: var(--myBlack);
     border-radius: 10px;
 }
@@ -747,10 +745,6 @@ button:active {
     flex-wrap: wrap;
     margin-top: 0.6rem;
     gap: 1rem;
-}
-
-.project-language {
-    font-weight: 300;
 }
 
 .project-description {
