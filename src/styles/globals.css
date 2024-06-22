@@ -898,11 +898,12 @@ button:active {
 }
 
 .stars {
-    background: #000 url(/images/stars.png) repeat top center;
+    background: #000 url(/portfolio-website/images/stars.png) repeat top center;
 }
 
 .twinkling {
-    background: transparent url(/images/twinkling.png) repeat top center;
+    background: transparent url(/portfolio-website/images/twinkling.png) repeat
+        top center;
     animation: move-twink-back 500s linear infinite;
     opacity: 50%;
 }
