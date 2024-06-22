@@ -96,6 +96,7 @@ export default function OtherProjects() {
                     imgAlt={project.imgAlt}
                     enabled={project.enabled}
                     github={project.github}
+                    isVideo={project.isVideo}
                 />
             );
         }

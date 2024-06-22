@@ -55,13 +55,32 @@ export default function Project(props) {
                     </a>
                 )}
             </div>
-            <Image
-                src={props.imgSrc}
-                width={320}
-                height={300}
-                alt={props.imgAlt}
-                className="project-image fade-project-in fade-selector"
-            />
+            {props.isVideo ? (
+                <video
+                    muted
+                    width="310"
+                    height="300"
+                    preload="auto"
+                    playsInline
+                    autoPlay
+                    loop
+                    className="project-video fade-project-in fade-selector"
+                >
+                    <source
+                        src={props.imgSrc}
+                        type="video/webm"
+                        aria-label={props.imgAlt}
+                    ></source>
+                </video>
+            ) : (
+                <Image
+                    src={props.imgSrc}
+                    width={320}
+                    height={300}
+                    alt={props.imgAlt}
+                    className="project-image fade-project-in fade-selector"
+                />
+            )}
         </div>
     );
 }

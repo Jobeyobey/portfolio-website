@@ -93,6 +93,7 @@ Work in progress!
 -   [x] Site links to github and sites etc.
 -   [x] Consider nav bar menu
 -   [x] Hoverable elements
+-   [ ] Button text is blue on mobile
 -   [ ] Colours
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code
