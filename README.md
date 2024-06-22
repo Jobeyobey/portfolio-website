@@ -42,7 +42,7 @@ Work in progress!
 -   [x] Images
 -   [x] Gifs
 -   [x] Project Data
--   [ ] Replace Favicon
+-   [x] Replace Favicon
 -   [ ] CV
 
 ### Coding
@@ -94,6 +94,7 @@ Work in progress!
 -   [x] Consider nav bar menu
 -   [x] Hoverable elements
 -   [ ] Button text is blue on mobile
+-   [ ] Touch screens don't disable hover after touch
 -   [ ] Colours
 -   [ ] Fix BGC home issue!
 -   [ ] Check for leftover Next.Js template code

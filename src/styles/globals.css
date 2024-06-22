@@ -101,7 +101,8 @@ main {
 }
 
 .nav-bar ul a:active {
-    scale: 0.8;
+    scale: 0.9;
+    transition: 0.1s;
 }
 
 .active-nav-link {
@@ -144,12 +145,13 @@ main {
     overflow: hidden;
 }
 
-button:hover {
-    opacity: 0.8;
-}
-
-a:hover {
-    opacity: 0.8;
+@media (hover: hover) {
+    button:hover {
+        opacity: 0.8;
+    }
+    a:hover {
+        opacity: 0.8;
+    }
 }
 
 button:active {
@@ -492,7 +494,7 @@ button:active {
 
 .disabled {
     color: #d3d3d3;
-    background: #2f4f4f;
+    background: #2f4f4f !important;
 }
 
 .all {
@@ -662,9 +664,11 @@ button:active {
     font-weight: 300;
 }
 
-.filter-button:hover {
-    opacity: 0.8;
-    cursor: pointer;
+@media (hover: hover) {
+    .filter-button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
 }
 
 #language-filter {
@@ -838,10 +842,6 @@ button:active {
     text-decoration: none;
 }
 
-#email:hover {
-    color: var(--javascriptYellowHover);
-}
-
 .social-links {
     display: flex;
     justify-content: center;
@@ -849,8 +849,13 @@ button:active {
     gap: 0.8rem;
 }
 
-.social-links a:hover {
-    scale: 1.2;
+@media (hover: hover) {
+    #email:hover {
+        color: var(--javascriptYellowHover);
+    }
+    .social-links a:hover {
+        scale: 1.2;
+    }
 }
 
 /* Stars */
