@@ -29,6 +29,11 @@
     scroll-behavior: smooth;
 }
 
+/* REMOVE THIS LATER */
+.focus-visible {
+    outline-color: none;
+}
+
 /* Major styling */
 
 html,
