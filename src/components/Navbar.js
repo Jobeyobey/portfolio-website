@@ -2,21 +2,20 @@ import React from "react";
 
 export default function Navbar() {
     function handleClick(event) {
-        const linkId = event.target.id;
-
-        switch (linkId) {
-            case "#about":
-                document.getElementById("about").focus();
-                break;
-            case "#skills":
-                document.getElementById("skills").focus();
-                break;
-            case "#featured-project":
-                document.getElementById("featured-project").focus();
-                break;
-            case "#contact":
-                document.getElementById("contact").focus();
-        }
+        // const linkId = event.target.id;
+        // switch (linkId) {
+        //     case "#about":
+        //         document.getElementById("about").focus();
+        //         break;
+        //     case "#skills":
+        //         document.getElementById("skills").focus();
+        //         break;
+        //     case "#featured-project":
+        //         document.getElementById("featured-project").focus();
+        //         break;
+        //     case "#contact":
+        //         document.getElementById("contact").focus();
+        // }
     }
 
     return (

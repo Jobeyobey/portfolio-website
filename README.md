@@ -99,7 +99,7 @@ Work in progress!
 -   [x] Fix BGC home issue!
 -   [x] Review Bio copy
 -   [x] Review all project descriptions (e.g. featured project no mention of REST API, Final Battle sounds generic)
--   [ ] Manage focus for screenreader when using inner Nav Links
+-   [x] Manage focus for screenreader when using inner Nav Links
 -   [ ] Check for leftover Next.Js template code
 -   [ ] Tidy (Files, Images, Code Comments, anything else)
 -   [ ] Scan for issues
