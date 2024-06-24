@@ -9,6 +9,31 @@ export default function Skills() {
             />
             <div className="fade-prep">
                 <div className="skill-boxes-container">
+                    <div className="skill-box personal-border">
+                        <h4>Personal</h4>
+                        <ul className="skill-list">
+                            <li>Technical</li>
+                            <li>Fast Learner</li>
+                            <li>Self-Motivated</li>
+                            <li>Team Player</li>
+                            <li>Adaptable</li>
+                            <li>Patient</li>
+                        </ul>
+                    </div>
+                    <div className="skill-box coding-border">
+                        <h4>Coding</h4>
+                        <ul className={"skill-list"}>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Javascript</li>
+                            <li>HTML/CSS</li>
+                            <li>React</li>
+                            <li>Flask</li>
+                            <li>Git</li>
+                            <li>Rest API&apos;s</li>
+                        </ul>
+                    </div>
                     <div className="skill-box experience-border">
                         <h4>Experience</h4>
                         <h5 className="job-title">Graphic Design</h5>
@@ -25,31 +50,6 @@ export default function Skills() {
                             Troubleshooting • Technical QC • Timekeeping •
                             Documentation
                         </p>
-                    </div>
-                    <div className="skill-box coding-border">
-                        <h4>Coding</h4>
-                        <ul className={"skill-list"}>
-                            <li>C#</li>
-                            <li>Python</li>
-                            <li>SQL</li>
-                            <li>Javascript</li>
-                            <li>HTML/CSS</li>
-                            <li>React</li>
-                            <li>Flask</li>
-                            <li>Git</li>
-                            <li>Rest API&apos;s</li>
-                        </ul>
-                    </div>
-                    <div className="skill-box personal-border">
-                        <h4>Personal</h4>
-                        <ul className="skill-list">
-                            <li>Technical</li>
-                            <li>Fast Learner</li>
-                            <li>Self-Motivated</li>
-                            <li>Team Player</li>
-                            <li>Adaptable</li>
-                            <li>Patient</li>
-                        </ul>
                     </div>
                 </div>
             </div>

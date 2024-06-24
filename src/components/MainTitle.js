@@ -52,14 +52,14 @@ export default function MainTitle() {
                 programming in my spare time.
             </p>
             <p className="bio fade-prep">
-                I&apos;ve greatly enjoyed the problem-solving aspects when
-                creating projects, and have decided to make it my goal to switch
-                career into software development.
+                I greatly enjoy the problem-solving aspect when creating
+                projects, and have decided to make it my goal to switch career
+                into software development.
             </p>
             <p className="bio fade-prep">
-                I believe I&apos;ve built a solid foundational knowledge of
-                programming, where I can confidently continue to grow in my
-                future career as a Software Developer.
+                I&apos;ve built a solid foundational knowledge of programming,
+                with which I can continue to grow in my future career as a
+                Software Developer.
             </p>
         </section>
     );
