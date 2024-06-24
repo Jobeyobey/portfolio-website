@@ -15,6 +15,7 @@ export default function FeaturedProject() {
             tabIndex="0"
             aria-label="Project Section"
         >
+            <div id="project-focus" class="focus-target" />
             <SectionTitle
                 title="Featured Project"
                 subtitle={featuredProject.title}
