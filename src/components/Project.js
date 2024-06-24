@@ -26,20 +26,9 @@ export default function Project(props) {
         );
     });
 
-    useEffect(() => {
-        function supportsVideoType(type) {
-            const videoTest = document.createElement("video");
-            return videoTest.canPlayType("video/webm");
-        }
-        if (supportsVideoType === "") {
-            supportsWebM = false;
-        }
-    });
-
     const isDescription2 = props.description2 !== undefined;
     const isGitLink = props.github !== undefined;
     const isSiteLink = props.siteLink !== "";
-    let supportsWebM = true;
 
     return (
         <div className={classString}>
@@ -78,7 +67,7 @@ export default function Project(props) {
                     </a>
                 )}
             </div>
-            {props.isVideo && supportsWebM ? (
+            {props.isVideo ? (
                 <video
                     muted
                     width="310"
@@ -90,7 +79,7 @@ export default function Project(props) {
                     className="project-video fade-project-in fade-selector"
                     aria-label={props.imgAlt}
                 >
-                    <source src={props.imgSrc} type="video/webm"></source>
+                    <source src={props.vidSrc} type="video/webm"></source>
                 </video>
             ) : (
                 <Image

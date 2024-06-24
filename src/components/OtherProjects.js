@@ -67,6 +67,23 @@ export default function OtherProjects() {
         }, 210);
     }
 
+    // Check webm support
+    React.useEffect(() => {
+        const video = document.createElement("video");
+        const webmResult = video.canPlayType(
+            "video/webm; codecs='vp8.0, vorbis'"
+        );
+        console.log(webmResult);
+
+        if (webmResult === "") {
+            setProjects((prevState) => {
+                return prevState.map((project) => {
+                    return { ...project, isVideo: false };
+                });
+            });
+        }
+    }, []);
+
     const languageComponent = buttons.map((language) => {
         return (
             <FilterButton
@@ -92,6 +109,7 @@ export default function OtherProjects() {
                     languages={project.languages}
                     description1={project.description1}
                     description2={project.description2}
+                    vidSrc={project.vidSrc}
                     imgSrc={project.imgSrc}
                     imgAlt={project.imgAlt}
                     isVideo={project.isVideo}
