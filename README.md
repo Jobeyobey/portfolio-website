@@ -1,6 +1,6 @@
 # portfolio-website
 
-Work in progress!
+Final touches being added, but live here: https://jobeyobey.github.io/portfolio-website/
 
 [Figma Design File](https://www.figma.com/design/CHkIc5Bb2w5Og3dZFzIIbF/Portfolio?node-id=2251-3498&t=Yzqci1c73hCZP0BG-1)
 
