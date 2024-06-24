@@ -767,6 +767,7 @@ button:active {
     margin: auto 0;
     border: 2px solid white;
     height: 100%;
+    max-width: 310px;
     border-radius: 8px;
     box-shadow: #777 0 0 1rem;
 }
@@ -822,6 +823,7 @@ button:active {
     }
     .project-container img {
         width: 100%;
+        max-width: 310px;
         height: 100%;
     }
     .project-container video {
