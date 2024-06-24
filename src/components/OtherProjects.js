@@ -71,7 +71,7 @@ export default function OtherProjects() {
     React.useEffect(() => {
         const video = document.createElement("video");
         const webmResult = video.canPlayType(
-            "video/webm; codecs='vp8.0, vorbis'"
+            'video/webm; codecs="vp8.0, vorbis"'
         );
         console.log(webmResult);
 
