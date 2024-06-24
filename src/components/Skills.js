@@ -7,7 +7,6 @@ export default function Skills() {
                 title="Skills and Experience"
                 subtitle="Work, Coding and Personal"
             />
-            <div id="skills-focus" class="focus-target" />
             <div className="fade-prep">
                 <div className="skill-boxes-container">
                     <div className="skill-box experience-border">

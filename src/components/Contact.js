@@ -9,7 +9,6 @@ export default function Contact() {
                 title="Contact"
                 subtitle="Open to job opportunities"
             />
-            <div id="contact-focus" class="focus-target" />
             <div className="fade-prep">
                 <div>
                     <p>Email me at</p>

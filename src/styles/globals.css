@@ -173,10 +173,6 @@ button:active {
     scale: 0.8;
 }
 
-.focus-target {
-    display: none;
-}
-
 /* Fade in Animations */
 
 .fade-in {

@@ -9,7 +9,6 @@ export default function MainTitle() {
             tabIndex="0"
             aria-label="About Section"
         >
-            <div id="about-focus" class="focus-target" />
             <div className="titles-mask">
                 <h1 className={"main-title"}>Joe Hollands</h1>
                 <h2>Junior Software Developer</h2>
