@@ -139,7 +139,7 @@ const projectsData = [
             "A laptop and mobile displaying The Boardgame Companion",
         isVideo: false,
         siteLink: "http://jobeyobey.pythonanywhere.com/login",
-        github: "https://github.com/Jobeyobey/cs50-final-project",
+        github: "https://github.com/Jobeyobey/the-boardgame-companion",
         enabled: true,
     },
     {
