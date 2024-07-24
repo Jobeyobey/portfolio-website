@@ -32,9 +32,9 @@ export default function Skills() {
                         </p>
                         <h5 className="skill-title">Other</h5>
                         <p className="skill-description">
-                            Git • Rest API's • Test-Driven Development • Error
-                            Handling • Accessibility • Hosting • Agile • Pair
-                            Programming
+                            Git • Rest API&apos;s • Test-Driven Development •
+                            Error Handling • Accessibility • Hosting • Agile •
+                            Pair Programming
                         </p>
                     </div>
                     <div className="skill-box experience-border">
