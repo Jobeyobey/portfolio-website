@@ -41,10 +41,6 @@ body {
 main {
     max-width: var(--max-width);
     margin: auto;
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
 }
 
 /* Scroll Margin Fixes */
@@ -456,14 +452,14 @@ button:active {
     list-style-type: none;
 }
 
-.job-title {
+.skill-title {
     padding-top: 1rem;
     font-family: "inter";
     font-size: 1rem;
     font-weight: 400;
 }
 
-.job-date {
+.skill-subtitle {
     padding-top: 0.2rem;
     font-family: "inter";
     font-size: 1rem;
@@ -471,7 +467,7 @@ button:active {
     color: var(--myOrange);
 }
 
-.job-description {
+.skill-description {
     margin: 0 5% 0.5rem 5%;
     padding-top: 0.2rem;
     font-family: "inter";
@@ -561,6 +557,11 @@ button:active {
 .htmlcss {
     background: var(--htmlRed);
     color: white;
+}
+
+.express {
+    background: skyblue;
+    color: var(--myBlack);
 }
 
 /* Featured Project */

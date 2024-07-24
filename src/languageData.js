@@ -48,6 +48,13 @@ const languageData = [
         colour: "#e9e9e9",
         enabled: false,
     },
+    {
+        id: 7,
+        name: "Express",
+        className: "express",
+        colour: "#87ceeb",
+        enabled: false,
+    },
 ];
 
 export default languageData;
