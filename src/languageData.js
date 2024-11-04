@@ -55,6 +55,27 @@ const languageData = [
         colour: "#87ceeb",
         enabled: false,
     },
+    {
+        id: 8,
+        name: "TypeScript",
+        className: "typescript",
+        color: "#376f9e",
+        enabled: false,
+    },
+    {
+        id: 9,
+        name: "Flutter",
+        className: "flutter",
+        color: "#376f9e",
+        enabled: false,
+    },
+    {
+        id: 10,
+        name: "Dart",
+        className: "dart",
+        color: "#376f9e",
+        enabled: false,
+    },
 ];
 
 export default languageData;

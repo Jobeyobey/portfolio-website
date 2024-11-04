@@ -38,7 +38,7 @@ export default function Home() {
                 <title>Joe Hollands - Portfolio</title>
                 <meta
                     name="description"
-                    content="Joe Hollands Junior Software Developer Portfolio"
+                    content="Joe Hollands Software Developer Portfolio"
                 />
                 <meta
                     name="viewport"

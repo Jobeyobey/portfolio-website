@@ -4,6 +4,33 @@ const projectsData = [
     {
         id: 1,
         isFeature: false,
+        title: "Card Verse",
+        subtitle: "Northcoders - Final Group Project",
+        languages: [
+            "TypeScript",
+            "SQL",
+            "Express",
+            "REST API",
+            "Flutter",
+            "Dart",
+        ],
+        description1:
+            "Card Verse was a two week project I worked on with a group of 4 other developers. We all had a chance to work across the whole project, but we did split into pairs to take the lead on specific features.",
+        description2:
+            "My pair and I were responsible for designing and seeding a PostgreSQL database using TypeScript and implementing the interactive gameplay using Dart and Flutter.",
+        vidSrc: `${nextConfig.basePath}/images/WEBM/CardVerse.webm`,
+        imgSrc: `${nextConfig.basePath}/images/GIF/CardVerse.gif`,
+        imgAlt: "Animation showing Card Verse gameplay",
+        featureImgSrc: "",
+        featuredImgAlt: "",
+        isVideo: false,
+        siteLink: "",
+        github: undefined,
+        enabled: true,
+    },
+    {
+        id: 2,
+        isFeature: false,
         title: "Party Battler",
         subtitle: "C# Player's Guide",
         languages: ["C#"],
@@ -22,10 +49,10 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 2,
+        id: 3,
         isFeature: false,
         title: "News API",
-        subtitle: "Northcoders Backend Project",
+        subtitle: "Northcoders - Backend Project",
         languages: ["Javascript", "Express", "SQL", "REST API"],
         description1:
             "This is a news API that allows you to host a database of articles and their comments. It uses Express for routing and error handling, and PostgreSQL as the RDBMS. It has a full testing suite with nearly 100 tests, and is protected against SQL injection.",
@@ -42,7 +69,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 3,
+        id: 4,
         isFeature: false,
         title: "Bridge to Valhalla",
         subtitle: "Unity - Create With Code",
@@ -62,7 +89,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 4,
+        id: 5,
         isFeature: false,
         title: "Tenzies",
         subtitle: "React Dice-Rolling Game",
@@ -82,7 +109,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 5,
+        id: 6,
         isFeature: false,
         title: "Quiz App",
         subtitle: "React Practice",
@@ -102,7 +129,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 6,
+        id: 7,
         isFeature: false,
         title: "Homepage Project",
         subtitle: "CS50x Project",
@@ -122,7 +149,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 7,
+        id: 8,
         isFeature: false,
         title: "Portfolio Website",
         subtitle: "This one may be familiar",
@@ -142,7 +169,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 8,
+        id: 9,
         isFeature: true,
         title: "The Boardgame Companion",
         subtitle: "Personal Project",
@@ -163,7 +190,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 9,
+        id: 10,
         isFeature: false,
         title: "Meme Generator",
         subtitle: "React Practice",
@@ -183,7 +210,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 10,
+        id: 11,
         isFeature: false,
         title: "Fountain of Objects Game",
         subtitle: "C# Players Guide - OOP Practice",
@@ -203,7 +230,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 11,
+        id: 12,
         isFeature: false,
         title: "Dark Mode",
         subtitle: "React Practice",

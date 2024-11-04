@@ -11,7 +11,7 @@
     --offWhite: #fefefe;
     --gitColour: #fefefe;
     --linkedinColour: #355fc9;
-    --csharpPurple: #6f4af7;
+    --myPurple: #6f4af7;
     --pythonGreen: #3a835c;
     --htmlRed: #c53f1a;
     --javascriptYellow: #ebe548;
@@ -545,7 +545,7 @@ button:active {
 }
 
 .csharp {
-    background: var(--csharpPurple);
+    background: var(--myPurple);
     color: white;
 }
 
@@ -562,6 +562,21 @@ button:active {
 .express {
     background: skyblue;
     color: var(--myBlack);
+}
+
+.typescript {
+    background: var(--myBlue);
+    color: white;
+}
+
+.dart {
+    background: var(--myBlue);
+    color: white;
+}
+
+.flutter {
+    background: var(--myPurple);
+    color: white;
 }
 
 /* Featured Project */
@@ -689,7 +704,7 @@ button:active {
     flex-wrap: wrap;
     gap: 1rem;
     margin: 1em auto;
-    max-width: 85%;
+    max-width: 70%;
 }
 
 #filter-description {
