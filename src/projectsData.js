@@ -51,7 +51,7 @@ const projectsData = [
     {
         id: 3,
         isFeature: false,
-        title: "News API",
+        title: "News API - Backend",
         subtitle: "Northcoders - Backend Project",
         languages: ["Javascript", "Express", "SQL", "REST API"],
         description1:
@@ -91,6 +91,26 @@ const projectsData = [
     {
         id: 5,
         isFeature: false,
+        title: "News API - Frontend",
+        subtitle: "Northcoders - Frontend Project",
+        languages: ["Javascript", "React", "HTML/CSS"],
+        description1:
+            "A news board with social elements that allows users to post and view articles and filter by topic, popularity and more. Users can also comment and vote on articles, as well as vote on user comments themselves.",
+        description2:
+            "Note: The server hosting the backend spins down after periods of inactivity, so it may take up to a minute to initially respond.",
+        vidSrc: "",
+        imgSrc: `${nextConfig.basePath}/images/NC-News.png`,
+        imgAlt: "Image of list of articles on a 'What's News' website.",
+        featureImgSrc: "",
+        featuredImgAlt: "",
+        isVideo: false,
+        siteLink: "https://nc-news-joehollands.netlify.app/",
+        github: "https://github.com/Jobeyobey/fe-nc-news",
+        enabled: true,
+    },
+    {
+        id: 6,
+        isFeature: false,
         title: "Tenzies",
         subtitle: "React Dice-Rolling Game",
         languages: ["Javascript", "React", "HTML/CSS"],
@@ -109,7 +129,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 6,
+        id: 7,
         isFeature: false,
         title: "Quiz App",
         subtitle: "React Practice",
@@ -129,7 +149,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 7,
+        id: 8,
         isFeature: false,
         title: "Homepage Project",
         subtitle: "CS50x Project",
@@ -149,7 +169,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 8,
+        id: 9,
         isFeature: false,
         title: "Portfolio Website",
         subtitle: "This one may be familiar",
@@ -169,7 +189,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 9,
+        id: 10,
         isFeature: true,
         title: "The Boardgame Companion",
         subtitle: "Personal Project",
@@ -190,7 +210,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 10,
+        id: 11,
         isFeature: false,
         title: "Meme Generator",
         subtitle: "React Practice",
@@ -210,7 +230,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 11,
+        id: 12,
         isFeature: false,
         title: "Fountain of Objects Game",
         subtitle: "C# Players Guide - OOP Practice",
@@ -230,7 +250,7 @@ const projectsData = [
         enabled: true,
     },
     {
-        id: 12,
+        id: 13,
         isFeature: false,
         title: "Dark Mode",
         subtitle: "React Practice",
